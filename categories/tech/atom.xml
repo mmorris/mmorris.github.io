@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tech | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/tech/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sync Adium Chat History with Dropbox]]></title>
+    <link href="http://mattmorr.is/2012/03/06/sync-adium-chat-history-with-dropbox/"/>
+    <updated>2012-03-06T20:46:00-05:00</updated>
+    <id>http://mattmorr.is/2012/03/06/sync-adium-chat-history-with-dropbox</id>
+    <content type="html"><![CDATA[<p>Ever wished <a href="http://adium.im">Adium</a> would share its chat history across all your Macs? This script will move your chat history to your <a href="http://db.tt/4rwGGFac">Dropbox</a> folder. It will not merge your history from other computers. Just drag that over manually for each account.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>drop_adium.sh  (drop_adium.sh)</span> <a href='/downloads/code/drop_adium.sh'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'>mkdir <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span>
+</span><span class='line'><span class="nb">pushd</span> <span class="s2">&quot;$HOME/Library/Application Support/Adium 2.0/Users/Default&quot;</span>
+</span><span class='line'>
+</span><span class='line'>cp -R Logs/* <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span>
+</span><span class='line'>mv Logs Logs_backup
+</span><span class='line'>ln -s <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span> Logs
+</span><span class='line'>
+</span><span class='line'><span class="nb">popd</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Disclaimer: This might not work with future versions of Adium. Use at your own risk.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Photo Stream Chokes the Tubes]]></title>
+    <link href="http://mattmorr.is/2012/03/01/photo-stream-chokes-the-tubes/"/>
+    <updated>2012-03-01T21:50:00-05:00</updated>
+    <id>http://mattmorr.is/2012/03/01/photo-stream-chokes-the-tubes</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve recently become annoyed enough with <a href="http://www.apple.com/icloud/features/photo-stream.html">Photo Stream</a> that I&rsquo;ve disabled it on my iPhone. The issue is that it&rsquo;s consuming all the available upstream bandwith that my home internet connection can provide. My wife will be working on Google Docs and suddenly wonder why things stop working just as I start taking pictures of the kids' antics.</p>
+
+<p>Admittedly, my home connection is pretty puny. My max sustained upstream is about 57KB/s. And when this is maxed out, no ACKs can go out, and even downstream traffic slows to a drip.</p>
+
+<p>I have a few thoughts on how this could be improved.</p>
+
+<!--more-->
+
+
+<h2>Make It a Setting?</h2>
+
+<p>No.</p>
+
+<p>iOS could offer a setting that could allow the user to pick his max upload speed, or to decide between what hours of the day photos are uploaded. However, settings like these would only be confusing to 95% of users, and would almost certainly cause more problems than they fix.</p>
+
+<h2>Burst, Then Throttle</h2>
+
+<p>A better solution would be for iOS to test a given WiFi network&rsquo;s capacity before it starts blasting pictures out to the cloud. Here&rsquo;s a rough outline of what this strategy might look like.</p>
+
+<pre><code>1. Detect that the device is on a "new" wifi network.
+2. Push some data as fast as possible to an iCloud server.
+3. Measure the upload speed.
+4. Throttle Photo Stream to some reasonable fraction of this speed.
+</code></pre>
+
+<p>This could all be done automatically, behind the scenes, with no user visible settings or input necessary.</p>
+
+<p>There is, of course, the risk of getting a slow initial reading during a network outage or other problem. So, this might need to be repeated every so often to avoid getting capped a slower speed than necessary.</p>
+
+<p>Throttling like this isn&rsquo;t necessary for most iCloud functionality, because documents and key/value data can go out in short, fast bursts. When I get home from a weekend trip with the kids, Photo Stream can take hours pushing data out.</p>
+
+<h2>Final Thought</h2>
+
+<p>I wonder how often this has happened&hellip; A Family buys two iPhones and turns on Photo Stream. Netflix streaming video quality becomes horrible, and they assume that the fault lies with Netflix. Family cancels Netflix out of frustration.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blogging | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Back to Octopress Master]]></title>
+    <link href="http://mattmorr.is/2013/08/18/back-to-octopress-master/"/>
+    <updated>2013-08-18T20:58:00-04:00</updated>
+    <id>http://mattmorr.is/2013/08/18/back-to-octopress-master</id>
+    <content type="html"><![CDATA[<p>After playing with the <a href="http://octopress.org/docs/blogging/linklog/">link log</a> feature in the Octopress 2.1, and now <a href="https://github.com/imathis/octopress/tree/3.0">3.0</a>, branches, I&rsquo;ve decided to come back to the master branch. Octopress 3.0 looks like it&rsquo;s going to be very nice, but things are too unstable for me at the moment. I shouldn&rsquo;t be spending so much time hacking on the site itself when there is actual work to do.</p>
+
+<p>For the linklog posts I&rsquo;ve already made, I just edited the entry with a link to the external URL in the body of the post. Apologies if this causes repeat entries to appear in your RSS feed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[In Lieu of Ads]]></title>
+    <link href="http://mattmorr.is/2013/04/20/in-lieu-of-ads/"/>
+    <updated>2013-04-20T00:11:04-04:00</updated>
+    <id>http://mattmorr.is/2013/04/20/in-lieu-of-ads</id>
+    <content type="html"><![CDATA[<p>I recently saw <a href="https://github.com/begriffs/lucre">this project</a> in my news feed and wanted to give it a try. It&rsquo;s a simple rails app that gives you an easy way to accept credit card payments online. I&rsquo;ve never liked the way that ads looked on my site, so I&rsquo;m going to run a &ldquo;tip me&rdquo; button for a while and see how that works.</p>
+
+<p>If you find one of my posts useful, or if you&rsquo;d just like to buy me a coffee, <a href="http://pay-matt.herokuapp.com">give it a try</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Trying Out Octopress 2.1]]></title>
+    <link href="http://mattmorr.is/2013/02/24/trying-out-octopress-2-dot-1/"/>
+    <updated>2013-02-24T21:45:05-05:00</updated>
+    <id>http://mattmorr.is/2013/02/24/trying-out-octopress-2-dot-1</id>
+    <content type="html"><![CDATA[<p>This site is now running <a href="https://github.com/imathis/octopress/tree/2.1">Octopress 2.1</a> (still in beta). The most notable new feature is its <a href="http://octopress.org/docs/blogging/linklog/">support for linklogs</a>, which is pretty exciting. Apologies if you see any hiccups in the RSS feed while I tinker with the site.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon Static Hosting Cost]]></title>
+    <link href="http://mattmorr.is/2013/02/04/amazon-static-hosting-cost/"/>
+    <updated>2013-02-04T20:54:00-05:00</updated>
+    <id>http://mattmorr.is/2013/02/04/amazon-static-hosting-cost</id>
+    <content type="html"><![CDATA[<p>A little over a month ago, I <a href="http://mattmorr.is/blog/2012/12/28/hosting-a-naked-domain-on-amazon-s3/">moved this site to Amazon S3 Static Hosting</a>. I&rsquo;ve just received the bill for the first full month using the service. Here are the details.</p>
+
+<!--more-->
+
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8445751017/"><img class="center" src="http://farm9.staticflickr.com/8236/8445751017_fd12a5bd55_b.jpg"></a></p>
+
+<p>This is for two websites. The &ldquo;Reduced Redundancy&rdquo; portion of the bill has nothing to do with the websites, but is for a bucket where I backup certain files.</p>
+
+<p>So, the real price for hosting two websites on root domains was <strong>$1.1</strong>. Since I have very low traffic, most of the cost was for Amazon&rsquo;s DNS service. You have to use their DNS service if you want to use a root domain, but if you keep the www subdomain, you could use your own DNS provider. In my case, if I weren&rsquo;t using the root domain, my bill would only be about ten cents.</p>
+
+<p>This seems inexpensive, but if you have more than a handful of websites with any meaningful traffic it could start to add up to more than a $9 per month shared hosting plan.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hosting a Naked Domain on Amazon S3]]></title>
+    <link href="http://mattmorr.is/2012/12/28/hosting-a-naked-domain-on-amazon-s3/"/>
+    <updated>2012-12-28T21:46:00-05:00</updated>
+    <id>http://mattmorr.is/2012/12/28/hosting-a-naked-domain-on-amazon-s3</id>
+    <content type="html"><![CDATA[<p>A few months ago I experimented with hosting this website on <a href="http://aws.amazon.com/s3">Amazon S3</a>. It&rsquo;s trivial to setup an s3 bucket as a website, and <a href="http://ponyho.st">ponyHost</a> makes it a breeze to deploy an <a href="http://www.octopress.org">Octopress</a> website to the bucket. Static HTML/CSS + S3 hosting make for a very snappy website. However, at that time there was no clean way to use S3 to host a <a href="http://en.wikipedia.org/wiki/Root_domain">root domain</a>, so I abandoned the effort.</p>
+
+<p>Then just this morning, Amazon announced support for root domains with Amazon S3 hosted websites.</p>
+
+<!--more-->
+
+
+<p>I decided to give it a try during lunch. I followed <a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">these instructions</a> and in less than an hour I was all finished, save for DNS propagation. This site is now hosted on Amazon&rsquo;s lightning-fast infrastructure. And if I need to, I can fail back to my shared hosting provider by simply changing the DNS nameservers at my registrar.</p>
+
+<p>One lingering concern I have is cost. Although S3 prices are very economical under normal circumstances, the &ldquo;Data Transfer Out&rdquo; component of the pricing means that my monthly bill&rsquo;s theoretical maximum is effectively infinite. Expensive accidents involving Amazon S3 are not without <a href="http://www.behind-the-enemy-lines.com/2012/04/google-attack-how-i-self-attacked.html">precedent</a>. Even a single individual with an axe to grind and a 10 megabit home internet connection could do non-trivial damage to my wallet over the course of a month.</p>
+
+<p>I&rsquo;m sure there are ways to configure logging and/or notifications in a manner that would let me guard against such accidents or attacks, but I have not explored this yet. I&rsquo;ll take a look at that over the weekend. In the meantime, please let me know if you happen to see any issue with the site.</p>
+]]></content>
+  </entry>
+  
+</feed>

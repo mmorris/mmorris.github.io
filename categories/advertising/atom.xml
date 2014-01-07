@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: advertising | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/advertising/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Attempting to Advertise a 99 Cent App]]></title>
+    <link href="http://mattmorr.is/2012/02/03/attempting-to-advertise-a-99-cent-app/"/>
+    <updated>2012-02-03T03:52:00-05:00</updated>
+    <id>http://mattmorr.is/2012/02/03/attempting-to-advertise-a-99-cent-app</id>
+    <content type="html"><![CDATA[<p>Over the holidays, I wrote an <a href="http://kidvidsapp.com">app</a> for iPhone and iPad and published it on the App Store. It’s a simple video player for kids; definitely a niche market. Recently it occurred to me that I might reach out to new customers using online advertising.</p>
+
+<p>I tried Google Adwords and Facebook Ads. Here are a few quick impressions.</p>
+
+<!--more-->
+
+
+<h2>Google Adwords</h2>
+
+<p>Adwords offers lots of keyword and targeting options. I find it a bit expensive for a $.99 app. I’m still trying to figure out how to get a Cost Per Click that will actually make me a profit.</p>
+
+<p>After more than two weeks of waiting for my ad to be reviewed, and fixing problems they find with it, my ad still isn’t live anywhere.  Not encouraging.</p>
+
+<h2>Facebook</h2>
+
+<p>Facebook’s interface is much simpler. After I created my first ad, it was approved and went live in less than an hour. This part of the experience was far superior to Google.</p>
+
+<p>Also, their targeting system is a little different. Facebook must have a richer picture of its users than Google does. You can target by location, age, sex, marital status, education level, etc.</p>
+
+<p>For my app, I chose to target parents with children under three years of age.</p>
+
+<p><img class="<a" src="href="http://mattmorr.is/images/fb_ad_config.png">http://mattmorr.is/images/fb_ad_config.png</a>"></p>
+
+<h2>Results</h2>
+
+<p>Anyway, after about 45,000 impressions and 28 clicks, I had burned through the $10 that I had allocated to this experiment. These 28 clicks didn’t have a material effect on my sales for the day. I have since tightened my targeting; I’m getting fewer impressions/clicks, but hopefully they will better convert to sales.</p>
+
+<p>So far, it doesn’t seem practical to advertise a $.99 app using Facebook or Google unless you make the effort to fine tune your ad’s text, keywords, and targeting. This is a process that might take weeks of tweaking and A/B testing.  And for certain niche apps, it might not even be possible to effectively target your audience.</p>
+
+<p>Edit: <a href="http://go.bloomberg.com/facebook-unleashed/2012-02-02/182901-ads-26-clicks-my-short-life-as-a-facebook-advertiser/">This post</a> over on Bloomberg is another account of a failed experiment with online advertising.</p>
+]]></content>
+  </entry>
+  
+</feed>

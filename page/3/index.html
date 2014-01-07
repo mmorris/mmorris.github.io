@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Matt Morris</title>
+  <meta name="author" content="Matt Morris">
+
+  
+  <meta name="description" content="DuckDuckGo is a popular alternative to Google Search. Unfortunately it&rsquo;s not one of the search engines supported in Safari by default. Their &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mattmorr.is/page/3">
+  <link href="/favicon.ico" rel="icon">
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <style>@import url("/stylesheets/bigfoot-default.css");</style>
+  <script type="text/javascript" src="/javascripts/libs/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bigfoot.min.js"></script>
+  <script type="text/javascript">
+    $.bigfoot({
+      actionOriginalFN: "hide",
+      activateOnHover: "true",
+      deleteOnUnhover: "true",
+      hoverDelay: "500"
+    });
+</script>
+  <link href="/atom.xml" rel="alternate" title="Matt Morris" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  
+    <h2><a href="/">M</a></h2>
+  
+  <h1>Matt Morris</h1>
+</hgroup>
+
+</header>
+  <nav role="navigation">
+  
+<ul class="main-navigation">
+  <li><a href="/about">About</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="http://bit.ly/101wqfK">Donate</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/04/11/duckduckgo-for-safari/">DuckDuckGo for Safari</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-11T20:34:00-04:00" pubdate data-updated="true">Apr 11<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://duckduckgo.com">DuckDuckGo</a> is a popular alternative to Google Search. Unfortunately it&rsquo;s not one of the search engines supported in Safari by default. Their <a href="http://help.duckduckgo.com/customer/portal/articles/255650">instructions</a> detail how to manually edit the /etc/hosts file to trick Safari into using DuckDuckGo instead of Yahoo.</p>
+
+<p>The problem is that ceratin 3rd party applications, most notably the Cisco VPN Client, modify /etc/hosts in order to accomplish their purpose. In the case of the Cisco VPN Client, the custom DuckDuckGo/Yahoo entry is lost whenever this happens.</p>
+
+<p>This Launch Daemon solves this problem by monitoring /etc/hosts, and adding the entry back if it&rsquo;s removed.  If you&rsquo;ve had this problem, check out the <a href="https://github.com/mmorris/DuckDuckGoDaemon">project</a> over on github and give it a try.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/26/colors-that-lie/">When Rainbows Attack</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-26T11:59:00-04:00" pubdate data-updated="true">Mar 26<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After reading some of the <a href="http://www.marco.org/2012/03/20/consumer-reports-sensationalism">recent commentary</a> regarding Consumer Reports&#8217; sensationalistic report of the New iPad&rsquo;s running temperature, I  would like to also point out the problems that come with using a rainbow color map in a visualization such as this.</p>
+
+<p>A color map is simply a look-up table that maps a range of values into a range of colors. Color maps are frequently used in medical and other scientific visualizations to achieve expressive visualizations. A carefully chosen color map can reveal important characteristics of the data under investigation. But a poor color map can actually introduce artifacts into the final image.</p>
+
+<p>Consumer Reports has chosen the canonical bad color map.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/03/26/colors-that-lie/">Continue reading &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/13/support-for-retina-capable-devices/">&#8220;Support for Retina capable devices&#8221;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-13T20:57:00-04:00" pubdate data-updated="true">Mar 13<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If you&rsquo;re submitting an iOS app update this week, you might just be adding higher resolution graphics to support the &ldquo;New iPad.&rdquo; If so, the &ldquo;What&rsquo;s New&rdquo; field in iTunes Connect might be the only thing you need translated for this release.</p>
+
+<p>Here are a few non-English ways to say that you&rsquo;ve added &ldquo;Support for Retina display-capable devices.&rdquo;</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>AR,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>AT,Unterstützung von Retina-Display-fähigen Geräten
+</span><span class='line'>BO,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>BR,Suporte a dispositivos habilitados para telas Retina
+</span><span class='line'>CH,Unterstützung von Retina-Display-fähigen Geräten
+</span><span class='line'>CL,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>CN,支持配有 Retina 显示屏的设备
+</span><span class='line'>CO,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>CR,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>DE,Unterstützung von Retina-Display-fähigen Geräten
+</span><span class='line'>DO,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>EC,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>ES,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>FR,Prise en charge des appareils à écran Retina
+</span><span class='line'>GT,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>HN,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>IT,Supporto per dispositivi con funzionalità Retina
+</span><span class='line'>JP,Retinaディスプレイ対応デバイスのサポート
+</span><span class='line'>MX,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>NI,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>NL,Ondersteuning voor Retina scherm-apparaten
+</span><span class='line'>PA,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>PE,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>PT,Suporte para dispositivos com capacidade para ecrã Retina
+</span><span class='line'>PY,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>RU,Поддержка устройств с дисплеями Retina
+</span><span class='line'>SE,Stöd för enheter som är kompatibla med Retina-bildskärmar
+</span><span class='line'>SV,Funciona con dispositivos compatibles con pantallas Retina
+</span><span class='line'>VE,Funciona con dispositivos compatibles con pantallas Retina</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/12/google-crawl-speed/">Google Crawl Speed</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-12T21:07:00-04:00" pubdate data-updated="true">Mar 12<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is a graph of the average time that it takes Google to download a page while crawling this site. See if you can spot the exact moment I left Wordpress for <a href="http://octopress.org/">Octopress</a>.</p>
+
+<center><a href="http://www.flickr.com/photos/matthewmorris/7062930631/"><img src="http://farm8.staticflickr.com/7177/7062930631_24a3e19481_z.jpg" width="553" height="201" title="'Crawl Speed'" ></a></center>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/10/geographic-target-iceland/">Geographic Target: Iceland</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-10T11:01:00-05:00" pubdate data-updated="true">Mar 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So it turns out that if you use a country&rsquo;s top level domain to create a clever URL for yourself, it&rsquo;s not possible to change Google&rsquo;s association of that domain with its country. This domain, for example, will forever have greater search visibility in Iceland.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/6823661048/lightbox" title="Geographic Target: Iceland by Matt Morris, on Flickr"><img src="http://farm8.staticflickr.com/7201/6823661048_056831c205_z.jpg" width="640" height="118" title="Geographic Target: Iceland" ></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/09/old-radar/">Old Radar is Old</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-09T21:15:00-05:00" pubdate data-updated="true">Mar 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>Your pre-login launchd agent will be run redundantly when the user switches directly from user A to user B via the fast user switching menu. rdar://problem/5136392</p><footer><strong>AppleDTS</strong> <cite><a href='https://developer.apple.com/library/mac/#samplecode/PreLoginAgents/Listings/Read_Me_About_PreLoginAgents_txt.html'>developer.apple.com/library/mac/&hellip;</a></cite></footer></blockquote>
+
+
+<p>I&rsquo;ve been seeing this problem since Leopard, and it looks like there&rsquo;s been a radar on it since before I&rsquo;ve known about it.  Can anyone beat this with an <strong>older</strong> radar that&rsquo;s still a problem in Lion?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/06/sync-adium-chat-history-with-dropbox/">Sync Adium Chat History with Dropbox</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-06T20:46:00-05:00" pubdate data-updated="true">Mar 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Ever wished <a href="http://adium.im">Adium</a> would share its chat history across all your Macs? This script will move your chat history to your <a href="http://db.tt/4rwGGFac">Dropbox</a> folder. It will not merge your history from other computers. Just drag that over manually for each account.</p>
+
+<figure class='code'><figcaption><span>drop_adium.sh  (drop_adium.sh)</span> <a href='/downloads/code/drop_adium.sh'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'>mkdir <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span>
+</span><span class='line'><span class="nb">pushd</span> <span class="s2">&quot;$HOME/Library/Application Support/Adium 2.0/Users/Default&quot;</span>
+</span><span class='line'>
+</span><span class='line'>cp -R Logs/* <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span>
+</span><span class='line'>mv Logs Logs_backup
+</span><span class='line'>ln -s <span class="s2">&quot;$HOME/Dropbox/adium_logs&quot;</span> Logs
+</span><span class='line'>
+</span><span class='line'><span class="nb">popd</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Disclaimer: This might not work with future versions of Adium. Use at your own risk.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/04/matias-tactile-pro-3/">Matias Tactile Pro 3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-04T11:22:00-05:00" pubdate data-updated="true">Mar 4<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been using the <a href="http://www.apple.com/keyboard/">Apple Wireless Keyboard</a> for some time now. I really liked it when I first started using it, but recently I&rsquo;ve become dissatisfied with it for various reasons. I&rsquo;ve even started to blame it for some pain I&rsquo;ve been having in my finger joints. So, a few weeks ago I decided to try a 3rd party Mac keyboard. I ordered a <a href="http://amzn.to/I4uB3o">Tactile Pro 3</a>, and here are my thoughts.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/03/04/matias-tactile-pro-3/">Continue reading &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/03/01/photo-stream-chokes-the-tubes/">Photo Stream Chokes the Tubes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-01T21:50:00-05:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve recently become annoyed enough with <a href="http://www.apple.com/icloud/features/photo-stream.html">Photo Stream</a> that I&rsquo;ve disabled it on my iPhone. The issue is that it&rsquo;s consuming all the available upstream bandwith that my home internet connection can provide. My wife will be working on Google Docs and suddenly wonder why things stop working just as I start taking pictures of the kids&#8217; antics.</p>
+
+<p>Admittedly, my home connection is pretty puny. My max sustained upstream is about 57KB/s. And when this is maxed out, no ACKs can go out, and even downstream traffic slows to a drip.</p>
+
+<p>I have a few thoughts on how this could be improved.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/03/01/photo-stream-chokes-the-tubes/">Continue reading &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/02/26/wordpress-to-octopress/">Wordpress to Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-26T14:45:00-05:00" pubdate data-updated="true">Feb 26<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been using <a href="http://wordpress.com">Wordpress</a> for some time now. It&rsquo;s currently powering my <a href="http://mattandhelga.com">family&rsquo;s photo blog</a> and a few other sites that I run. I&rsquo;ve been mostly pleased with it; it&rsquo;s very handy for creating a static website or blog. However, even with <a href="http://code.google.com/speed/page-speed/docs/module.html">mod_pagespeed</a>, <a href="http://wordpress.org/extend/plugins/tags/minify">&ldquo;minify&rdquo;</a> and <a href="http://wordpress.org/extend/plugins/tags/cache">caching</a> plugins, it&rsquo;s not quite as fast as I&rsquo;d like.</p>
+
+<p>Recently I&rsquo;ve been hearing lots of good things about &ldquo;baked&rdquo; blog solutions. This is where a tool is used to parse your blog content and spit out static html. Presumably this is faster since you&rsquo;re not performing a kajillion mysql queries every time anyone so much as sneezes at your site. <a href="http://http://octopress.org">Octopress</a> is a solution that does this and has been gaining lots of traction recently, so I thought I&rsquo;d give it a try.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/02/26/wordpress-to-octopress/">Continue reading &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/4/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Matt Morris -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(100583095);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100583095ns.gif" /></p></noscript>
+
+
+</body>
+</html>

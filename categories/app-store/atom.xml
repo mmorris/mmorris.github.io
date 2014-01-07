@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: App Store | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/app-store/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Kid Vids Rejection]]></title>
+    <link href="http://mattmorr.is/2012/09/30/kid-vids-rejection/"/>
+    <updated>2012-09-30T14:43:00-04:00</updated>
+    <id>http://mattmorr.is/2012/09/30/kid-vids-rejection</id>
+    <content type="html"><![CDATA[<p>Shortly after the iPhone 5 announcement, I began updating <a href="http://bit.ly/NeDHS2">Kid Vids</a> for compatibility with the larger screen. Since Kid Vids is a video player, I was especially excited to take advantage of the 16x9 aspect ratio.</p>
+
+<p>To my surprise, this update was rejected due to copyright concerns.</p>
+
+<!--more-->
+
+
+<p>First I&rsquo;ll explain how this simple app works. Given a YouTube playlist ID, it will play videos from that playlist. That&rsquo;s really it. It doesn&rsquo;t let you browse YouTube and it doesn&rsquo;t offer a way to search for videos. I do this using Google&rsquo;s <a href="https://developers.google.com/youtube/code#ObjectiveC">Objective C Client Library</a>.</p>
+
+<p>The functionality and obvious limitations of this app are completely intentional. I wanted a way to play a selection of hand-picked videos for my kids without the possibility of an inappropriate video appearing as a &ldquo;Related Video.&rdquo; And the introduction of Guided Access in iOS 6 makes it an even better solution to my original problem.</p>
+
+<p>Fast forward to last week. I got a push notification from the iTunes Connect informing me that the submission had been rejected. Strange, I thought, since this was perhaps the 8th update to the app and it had never had a problem before. Once I logged into iTunes Connect, I found this explanation:</p>
+
+<blockquote><p>We found that your app contains features that may infringe on rights owned by Children&rsquo;s Television Workshop, which is not in compliance with the App Store Review Guidelines.</p>
+
+<p>Specifically, we noticed your app contains clips and videos from the Sesame Street television series.</p></blockquote>
+
+<p>But my app bundle does not contain any clips and video whatsoever. It just streams video from YouTube. It does include a few playlist IDs that I offer as a way to get started quickly in the event that the user does not have a YouTube account at the ready. Since this is an app targeted at children, Sesame Street factored heavily into my selection.</p>
+
+<p>The videos that I include are all from <a href="http://www.youtube.com/user/SesameStreet">Sesame Street&rsquo;s public YouTube page</a>. You can even play them through Mobile Safari, the <em>new</em> YouTube.app, or any of the other countless iOS applications that include YouTube functionality.</p>
+
+<p>So, rather than to rework all my presets, I decided to submit an appeal to the App Review Board. I don&rsquo;t see a way to get the exact text of my appeal back from the website, but this was the gist of my argument:</p>
+
+<ul>
+<li>The Kid Vids app bundle&rsquo;s payload does not contain any video at all.</li>
+<li>It only plays (streams) public content from YouTube.</li>
+<li>I believe Kid Vids to be fully compliant with the <a href="https://developers.google.com/youtube/terms">YouTube Developer Terms of Service</a>.</li>
+<li>The sale of an API client is explicitly permitted in Section 1.2 of these terms.</li>
+</ul>
+
+
+<p>After a few days, I received this friendly, albeit somewhat terse, reply:</p>
+
+<blockquote><p>Thank you for submitting an appeal to the App Review Board for the review of your app, Kid Vids.</p>
+
+<p>We have completed the evaluation of your appeal and have determined that the review findings of 9/19/12 are appropriate.</p>
+
+<p>While this version of your app will not be posted to the App Store, we hope you will consider revising your app to address the issue and bring your into compliance with the Guidelines.</p></blockquote>
+
+<p>I can only imagine that the App Review Board feels it is simply not worth risking litigation by approving an app that <em>seems</em> to violate a copyright. I&rsquo;m sure if I were in their shoes, I would be equally cautious. On the other hand, I wonder how many &ldquo;Wang Ting&rdquo; apps are still available on the App Store. (See this <a href="http://iphonedevelopment.blogspot.com/2012/08/irksome-but-nothing-new.html">article by Jeff Lamarche</a>)</p>
+
+<p>So, I &ldquo;turned off&rdquo; Sesame Street in the app and resubmitted. Not a big deal in the end. Hopefully it goes through this time without a hitch. But what if the reviewer for the next update finds a new supposed violation with some other video? It would be tiresome to have to go through this song and dance for every update submission.</p>
+]]></content>
+  </entry>
+  
+</feed>

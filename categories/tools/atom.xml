@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tools | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/tools/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating from LastPass to 1Password]]></title>
+    <link href="http://mattmorr.is/2013/02/01/migrating-from-lastpass-to-1password/"/>
+    <updated>2013-02-01T17:19:00-05:00</updated>
+    <id>http://mattmorr.is/2013/02/01/migrating-from-lastpass-to-1password</id>
+    <content type="html"><![CDATA[<p>Today I decided to give <a href="https://agilebits.com/onepassword">1Password</a> a try. I&rsquo;ve been a <a href="http://lastpass.com">LastPass</a> user for some time now, but I&rsquo;ve always felt that their iPhone app left much to be desired. The 1Password apps are currently on sale for Macworld 2013, so I figured it&rsquo;s as good a time as any to give it a shot. Here&rsquo;s how I migrated my data from LastPass.</p>
+
+<!--more-->
+
+
+<h2>Export CSV from LastPass</h2>
+
+<p>The first step was to get the data out of LastPass. Click the LastPass button in Safari or Chrome, then click &ldquo;Advanced&rdquo;. You should see the following interface. Select &ldquo;Export&rdquo;.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8437083058/"><img class="center" src="http://farm9.staticflickr.com/8375/8437083058_a9f9ac60ed.jpg"></a></p>
+
+<p>This will give you a giant plaintext dump of your logins and passwords in CSV format. Save it to disk.</p>
+
+<h2>Importing the CSV Data to 1Password</h2>
+
+<p>Open 1Password on the Mac. From the File menu, choose &ldquo;Import&hellip;&rdquo;. You will see the following interface that begins the import process. Start by selecting &ldquo;CSV or Delimited Text&rdquo; from the dropdown.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8437083628/"><img class="center" src="http://farm9.staticflickr.com/8229/8437083628_5f0181ebd0_z.jpg"></a></p>
+
+<p>On the next screen, choose the CSV file that you exported from LastPass, and click &ldquo;Start Import&rdquo;. Then, on the next screen, you just tell 1Password how to interpret the CSV data.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8435998903/"><img class="center" src="http://farm9.staticflickr.com/8512/8435998903_1547264bac_z.jpg"></a></p>
+
+<p>There are a few things you have to do on this screen to make things work right. The first line of the CSV file is header information for each column. So, select &ldquo;Start import at line:<strong>1</strong>&rdquo;. Also, there is a dropdown above each column that needs to be set so that 1Password knows how to interpret the colum. In the screenshot, I&rsquo;ve set URL/Location, Username, Password, and Title.</p>
+
+<p>In the next screen, you can review the entries. When you&rsquo;re satisfied, just click &ldquo;Import&rdquo; and it will start populating the 1Password keychain with the lastpass CSV data.</p>
+
+<h2>Securely Remove the CSV File</h2>
+
+<p>This is important. You don&rsquo;t want a plain-text copy of all your credentials sitting on disk.</p>
+
+<p>On OS X, the <a href="https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/rm.1.html">rm</a> command has an option to securely overwrite files before deleting them. The option you want is -P.
+<blockquote><p>Overwrite regular files before deleting them.  Files are overwritten three times, first with the byte pattern 0xff, then 0x00, and then 0xff again, before they are deleted.</p></blockquote></p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8437226198/"><img class="center" src="http://farm9.staticflickr.com/8353/8437226198_fba7a5c3f5_o.png"></a></p>
+
+<p>This is an easy way to make reasonably sure that the data is no longer sitting unencrypted on your hard drive.</p>
+
+<h2>Finally</h2>
+
+<p>LastPass has served me well for a long stretch, but 1Password&rsquo;s iOS and Mac apps are too compelling to ignore. I hope this walkthrough has been informative. Feel free to contact me if you find any errors.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Glif Plus]]></title>
+    <link href="http://mattmorr.is/2013/01/20/glif-plus/"/>
+    <updated>2013-01-20T14:48:00-05:00</updated>
+    <id>http://mattmorr.is/2013/01/20/glif-plus</id>
+    <content type="html"><![CDATA[<p>I enjoy being our unofficial family photographer. Since the birth of our first son almost three years ago, I&rsquo;ve shot about a terabyte of images and video of our family. Recently, I&rsquo;ve been going through our Aperture library, culling duplicates and deleting bad images, and I&rsquo;ve come to realize two things about the video I&rsquo;ve shot.</p>
+
+<!--more-->
+
+
+<p>First, being the unofficial family photographer, I am in virtually none of the videos or pictures. Now, I don&rsquo;t really mind, but I&rsquo;m sure that my children will want to look back at this footage and see a more complete picture of everyone that was there.</p>
+
+<p>Second, I would really like a way to capture longer videos of family moments. Even an uneventful dinner on a randon Tuesday night will surely be precious footage 30 years from now.</p>
+
+<p>So, to address these two issues, I wanted a way to mount the iPhone on a standard tripod. I settled on the <a href="http://www.amazon.com/gp/product/B00AAKO646/ref=as_li_ss_tl?ie=UTF8&amp;tag=matmor-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00AAKO646">Glif Plus</a> by <a href="http://www.studioneat.com/">Studio Neat</a>. My plan is to leave a tripod in a corner nearby, always at-the-ready.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8396066938/"><img class="center <a" src="href="http://farm9.staticflickr.com/8374/8396066938_a0262f83b7_z.jpg">http://farm9.staticflickr.com/8374/8396066938_a0262f83b7_z.jpg</a>"></a></p>
+
+<p>I&rsquo;ve spent a few days with it, and so far I quite like it. All the pieces that come in contact with the iPhone are firm, non-scratchy rubber. Also, it feels secure on the tripod; I don&rsquo;t worry that it will fall off.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8394982783/"><img class="center <a" src="href="http://farm9.staticflickr.com/8232/8394982783_a76285ca16_z.jpg">http://farm9.staticflickr.com/8232/8394982783_a76285ca16_z.jpg</a>"></a></p>
+
+<p>Also, it&rsquo;s pretty quick to setup. One corner of the phone slides into the rubber base, and then the other piece secures everything together.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8394983957/" ><img class="center <a" src="href="http://farm9.staticflickr.com/8054/8394983957_111193624e_z.jpg">http://farm9.staticflickr.com/8054/8394983957_111193624e_z.jpg</a>"></a></p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8396067692/"><img class="center <a" src="href="http://farm9.staticflickr.com/8499/8396067692_2a113d715a_z.jpg">http://farm9.staticflickr.com/8499/8396067692_2a113d715a_z.jpg</a>"></a></p>
+
+<p>Now, when I get home from work, I get to co-star in some home movies along with my wife and kids. Also, as an added bonus, my phone is now much less likely to be dividing my attention when I should be 100% focused on my family.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vicious for Xcode]]></title>
+    <link href="http://mattmorr.is/2013/01/07/vicious-for-xcode/"/>
+    <updated>2013-01-07T20:41:00-05:00</updated>
+    <id>http://mattmorr.is/2013/01/07/vicious-for-xcode</id>
+    <content type="html"><![CDATA[<p>I&rsquo;d like to recommend a tool that I&rsquo;ve been using over the past few weeks. <a href="http://viciousapp.com">Vicious</a> is a plugin for Xcode that provides Vi keybindings in the text editor. When I first heard about it, I was skeptical that it could actually deliver on this promise, but I&rsquo;ve been pleasantly surprised. I&rsquo;ve used Vi for years, so I have a great deal of Vi muscle memory stored up in my fingers. Give it a try if you know Vi and have to work with Xcode.</p>
+]]></content>
+  </entry>
+  
+</feed>

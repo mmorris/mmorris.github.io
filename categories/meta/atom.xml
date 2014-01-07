@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: meta | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/meta/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Thanks, Iceland]]></title>
+    <link href="http://mattmorr.is/2011/07/29/thanks-iceland/"/>
+    <updated>2011-07-29T21:48:00-04:00</updated>
+    <id>http://mattmorr.is/2011/07/29/thanks-iceland</id>
+    <content type="html"><![CDATA[<p>So I plan to use this as my new personal domain. I’ve already got email setup at [my first name] at [this domain], and will probably try to start using it for personal email. (No one calls me Mateo anymore anyway.)</p>
+]]></content>
+  </entry>
+  
+</feed>

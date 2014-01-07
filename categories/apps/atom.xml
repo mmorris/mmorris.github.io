@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Apps | Matt Morris]]></title>
+  <link href="http://mattmorr.is/categories/apps/atom.xml" rel="self"/>
+  <link href="http://mattmorr.is/"/>
+  <updated>2013-12-28T10:58:19-05:00</updated>
+  <id>http://mattmorr.is/</id>
+  <author>
+    <name><![CDATA[Matt Morris]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Doc Vault]]></title>
+    <link href="http://mattmorr.is/2013/01/01/doc-vault/"/>
+    <updated>2013-01-01T10:33:00-05:00</updated>
+    <id>http://mattmorr.is/2013/01/01/doc-vault</id>
+    <content type="html"><![CDATA[<p>I recently launched my second personal app on the iOS App Store. <a href="http://bit.ly/X8PuYu">Doc Vault</a> is a way to capture documents that you don&rsquo;t want cluttering up your camera roll, or automaticaly sent to Photo Stream or some other third-party service.</p>
+
+<!--more-->
+
+
+<h2>Capture, Retrieve, Export</h2>
+
+<p>Doc Vault allows you to do three simple things:</p>
+
+<ol>
+<li>Capture an image of a textual document.</li>
+<li>Search for a particular document by entering text found in the image.</li>
+<li>Manually export a document to a third party service of your choosing.</li>
+</ol>
+
+
+<h2>Doc Vault Interface</h2>
+
+<p>These first two images illustrate Doc Vault&rsquo;s search capability. A number of images have been scanned, and a search for the term &ldquo;insurance&rdquo; has limited the displayed results to a single result. Also, each document has a footnote that indicates if OCR processing has completed and the document is searchable.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8334476862"><img class="center" src="http://farm9.staticflickr.com/8219/8334476862_49a1cf57b1_z.jpg" width="361" height="640"></a></p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8333417327"><img class="center" src="http://farm9.staticflickr.com/8081/8333417327_23b68ce8ee_z.jpg" width="361" height="640"></a></p>
+
+<p>The third screenshot shows the activity sheet in which you can export a document from the app. Currently, I support Email, Print, Copy to Pasteboard, and Dropbox. Evernote and other services are coming soon.</p>
+
+<p><a href="http://www.flickr.com/photos/matthewmorris/8333314989"><img class="center" src="http://farm9.staticflickr.com/8219/8333314989_de6493b695_z.jpg" width="361" height="640"></a></p>
+
+<h2>Now, Why Have an App For This?</h2>
+
+<p>On iOS, most apps take the reasonable assumption that images in the Camera Roll are photograps of friends, family, food, or flowers. But just think for a moment about what happens after the picture is taken.</p>
+
+<p>If you have Photo Stream enabled, your image is automatically sent to Apple&rsquo;s servers and then forwarded to your Macs and other iOS devices. Photo Stream is hardly the place for credit card statements, social security card numbers, or other sensitive information. Just imagine an image of your credit card statement appearing in the slideshow of your Apple TV.</p>
+
+<p>Also, several high-profile apps, most notably <a href="https://itunes.apple.com/us/app/facebook/id284882215?mt=8">Facebook</a> and <a href="https://itunes.apple.com/us/app/google+/id447119634?mt=8">Google+</a> have features which automatically upload images from the Camera Roll to their respective services. Even if opt-in to these features, it&rsquo;s unlikely that you want to send an image that contains your home address to Facebook.</p>
+
+<p>Doc Vault allows you to capture images that contain sensitive information like this without the worry that it will be sent somewhere without your knowledge. Then later, when you need to go back and find a document you&rsquo;ve scanned, just search for a word found in the image. Then, if you decide to send it somewhere, you can do so.</p>
+
+<h2>Future Work</h2>
+
+<p>I have many features and improvements planned for Doc Vault. First there are several other services for which I&rsquo;d like to add export support. Also, there are some iOS-specific performance improvements that I&rsquo;m working on for the <a href="http://code.google.com/p/tesseract-ocr/">tesseract</a> library, which Doc Vault uses to scan images for text. (That effort will go up on github once it&rsquo;s ready). Finally, per my mother&rsquo;s request, I&rsquo;d like to add a way to scan a multi-page document and keep all the pages associated inside the app&rsquo;s data store.</p>
+
+<h2>Finally</h2>
+
+<p>Feel free to give Doc Vault a try and let me know what you think. Also, if you&rsquo;re a developer and would like to beta-test, shoot me an email at [my first name] @ [this domain].</p>
+
+<center><a href="http://bit.ly/X8PuYu"><img src="http://mattmorr.is/images/Available_on_the_App_Store_Badge.svg" width="405" height="120" style="border-style: none"></a></center>
+
+]]></content>
+  </entry>
+  
+</feed>

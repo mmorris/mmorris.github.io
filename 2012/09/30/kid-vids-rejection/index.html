@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Kid Vids Rejection - Matt Morris</title>
+  <meta name="author" content="Matt Morris">
+
+  
+  <meta name="description" content="A YouTube client for iOS gets rejected">
+  <meta name="keywords" content="App Store, YouTube, app store rejection, iPhone 5">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mattmorr.is/2012/09/30/kid-vids-rejection">
+  <link href="/favicon.ico" rel="icon">
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <style>@import url("/stylesheets/bigfoot-default.css");</style>
+  <script type="text/javascript" src="/javascripts/libs/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bigfoot.min.js"></script>
+  <script type="text/javascript">
+    $.bigfoot({
+      actionOriginalFN: "hide",
+      activateOnHover: "true",
+      deleteOnUnhover: "true",
+      hoverDelay: "500"
+    });
+</script>
+  <link href="/atom.xml" rel="alternate" title="Matt Morris" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  
+    <h2><a href="/">M</a></h2>
+  
+  <h1>Matt Morris</h1>
+</hgroup>
+
+</header>
+  <nav role="navigation">
+  
+<ul class="main-navigation">
+  <li><a href="/about">About</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="http://bit.ly/101wqfK">Donate</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Kid Vids Rejection</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-30T14:43:00-04:00" pubdate data-updated="true">Sep 30<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Shortly after the iPhone 5 announcement, I began updating <a href="http://bit.ly/NeDHS2">Kid Vids</a> for compatibility with the larger screen. Since Kid Vids is a video player, I was especially excited to take advantage of the 16x9 aspect ratio.</p>
+
+<p>To my surprise, this update was rejected due to copyright concerns.</p>
+
+<!--more-->
+
+
+<p>First I&rsquo;ll explain how this simple app works. Given a YouTube playlist ID, it will play videos from that playlist. That&rsquo;s really it. It doesn&rsquo;t let you browse YouTube and it doesn&rsquo;t offer a way to search for videos. I do this using Google&rsquo;s <a href="https://developers.google.com/youtube/code#ObjectiveC">Objective C Client Library</a>.</p>
+
+<p>The functionality and obvious limitations of this app are completely intentional. I wanted a way to play a selection of hand-picked videos for my kids without the possibility of an inappropriate video appearing as a &ldquo;Related Video.&rdquo; And the introduction of Guided Access in iOS 6 makes it an even better solution to my original problem.</p>
+
+<p>Fast forward to last week. I got a push notification from the iTunes Connect informing me that the submission had been rejected. Strange, I thought, since this was perhaps the 8th update to the app and it had never had a problem before. Once I logged into iTunes Connect, I found this explanation:</p>
+
+<blockquote><p>We found that your app contains features that may infringe on rights owned by Children&rsquo;s Television Workshop, which is not in compliance with the App Store Review Guidelines.</p>
+
+<p>Specifically, we noticed your app contains clips and videos from the Sesame Street television series.</p></blockquote>
+
+<p>But my app bundle does not contain any clips and video whatsoever. It just streams video from YouTube. It does include a few playlist IDs that I offer as a way to get started quickly in the event that the user does not have a YouTube account at the ready. Since this is an app targeted at children, Sesame Street factored heavily into my selection.</p>
+
+<p>The videos that I include are all from <a href="http://www.youtube.com/user/SesameStreet">Sesame Street&rsquo;s public YouTube page</a>. You can even play them through Mobile Safari, the <em>new</em> YouTube.app, or any of the other countless iOS applications that include YouTube functionality.</p>
+
+<p>So, rather than to rework all my presets, I decided to submit an appeal to the App Review Board. I don&rsquo;t see a way to get the exact text of my appeal back from the website, but this was the gist of my argument:</p>
+
+<ul>
+<li>The Kid Vids app bundle&rsquo;s payload does not contain any video at all.</li>
+<li>It only plays (streams) public content from YouTube.</li>
+<li>I believe Kid Vids to be fully compliant with the <a href="https://developers.google.com/youtube/terms">YouTube Developer Terms of Service</a>.</li>
+<li>The sale of an API client is explicitly permitted in Section 1.2 of these terms.</li>
+</ul>
+
+
+<p>After a few days, I received this friendly, albeit somewhat terse, reply:</p>
+
+<blockquote><p>Thank you for submitting an appeal to the App Review Board for the review of your app, Kid Vids.</p>
+
+<p>We have completed the evaluation of your appeal and have determined that the review findings of 9/19/12 are appropriate.</p>
+
+<p>While this version of your app will not be posted to the App Store, we hope you will consider revising your app to address the issue and bring your into compliance with the Guidelines.</p></blockquote>
+
+<p>I can only imagine that the App Review Board feels it is simply not worth risking litigation by approving an app that <em>seems</em> to violate a copyright. I&rsquo;m sure if I were in their shoes, I would be equally cautious. On the other hand, I wonder how many &ldquo;Wang Ting&rdquo; apps are still available on the App Store. (See this <a href="http://iphonedevelopment.blogspot.com/2012/08/irksome-but-nothing-new.html">article by Jeff Lamarche</a>)</p>
+
+<p>So, I &ldquo;turned off&rdquo; Sesame Street in the app and resubmitted. Not a big deal in the end. Hopefully it goes through this time without a hitch. But what if the reviewer for the next update finds a new supposed violation with some other video? It would be tiresome to have to go through this song and dance for every update submission.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn"><a href="/about" title="About the author (Matt Morris)" rel="author">Matt Morris</a></span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-30T14:43:00-04:00" pubdate data-updated="true">Sep 30<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/app-store/'>App Store</a>, <a class='category' href='/categories/self/'>self</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/08/22/interception-source-code/" title="Previous Post: Interception Source Code">&laquo; Interception Source Code</a>
+      
+      
+        <a class="basic-alignment right" href="/2012/12/28/hosting-a-naked-domain-on-amazon-s3/" title="next Post: Hosting a Naked Domain on Amazon S3">Hosting a Naked Domain on Amazon S3 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Matt Morris -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(100583095);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100583095ns.gif" /></p></noscript>
+
+
+</body>
+</html>
