@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: octopress | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Back to Octopress Master]]></title>
-    <link href="http://mattmorr.is/2013/08/18/back-to-octopress-master/"/>
+    <link href="http://mmorris.github.io/2013/08/18/back-to-octopress-master/"/>
     <updated>2013-08-18T20:58:00-04:00</updated>
-    <id>http://mattmorr.is/2013/08/18/back-to-octopress-master</id>
+    <id>http://mmorris.github.io/2013/08/18/back-to-octopress-master</id>
     <content type="html"><![CDATA[<p>After playing with the <a href="http://octopress.org/docs/blogging/linklog/">link log</a> feature in the Octopress 2.1, and now <a href="https://github.com/imathis/octopress/tree/3.0">3.0</a>, branches, I&rsquo;ve decided to come back to the master branch. Octopress 3.0 looks like it&rsquo;s going to be very nice, but things are too unstable for me at the moment. I shouldn&rsquo;t be spending so much time hacking on the site itself when there is actual work to do.</p>
 
 <p>For the linklog posts I&rsquo;ve already made, I just edited the entry with a link to the external URL in the body of the post. Apologies if this causes repeat entries to appear in your RSS feed.</p>

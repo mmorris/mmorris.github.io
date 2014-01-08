@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: advertising | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/advertising/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/advertising/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Attempting to Advertise a 99 Cent App]]></title>
-    <link href="http://mattmorr.is/2012/02/03/attempting-to-advertise-a-99-cent-app/"/>
+    <link href="http://mmorris.github.io/2012/02/03/attempting-to-advertise-a-99-cent-app/"/>
     <updated>2012-02-03T03:52:00-05:00</updated>
-    <id>http://mattmorr.is/2012/02/03/attempting-to-advertise-a-99-cent-app</id>
+    <id>http://mmorris.github.io/2012/02/03/attempting-to-advertise-a-99-cent-app</id>
     <content type="html"><![CDATA[<p>Over the holidays, I wrote an <a href="http://kidvidsapp.com">app</a> for iPhone and iPad and published it on the App Store. It’s a simple video player for kids; definitely a niche market. Recently it occurred to me that I might reach out to new customers using online advertising.</p>
 
 <p>I tried Google Adwords and Facebook Ads. Here are a few quick impressions.</p>

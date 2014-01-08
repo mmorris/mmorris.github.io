@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: self | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/self/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/self/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[In Lieu of Ads]]></title>
-    <link href="http://mattmorr.is/2013/04/20/in-lieu-of-ads/"/>
+    <link href="http://mmorris.github.io/2013/04/20/in-lieu-of-ads/"/>
     <updated>2013-04-20T00:11:04-04:00</updated>
-    <id>http://mattmorr.is/2013/04/20/in-lieu-of-ads</id>
+    <id>http://mmorris.github.io/2013/04/20/in-lieu-of-ads</id>
     <content type="html"><![CDATA[<p>I recently saw <a href="https://github.com/begriffs/lucre">this project</a> in my news feed and wanted to give it a try. It&rsquo;s a simple rails app that gives you an easy way to accept credit card payments online. I&rsquo;ve never liked the way that ads looked on my site, so I&rsquo;m going to run a &ldquo;tip me&rdquo; button for a while and see how that works.</p>
 
 <p>If you find one of my posts useful, or if you&rsquo;d just like to buy me a coffee, <a href="http://pay-matt.herokuapp.com">give it a try</a>.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013 Goals]]></title>
-    <link href="http://mattmorr.is/2013/01/01/2013-goals/"/>
+    <link href="http://mmorris.github.io/2013/01/01/2013-goals/"/>
     <updated>2013-01-01T15:00:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/01/2013-goals</id>
+    <id>http://mmorris.github.io/2013/01/01/2013-goals</id>
     <content type="html"><![CDATA[<p>Here are a few of the goals I&rsquo;ve set for 2013.</p>
 
 <ol>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kid Vids Rejection]]></title>
-    <link href="http://mattmorr.is/2012/09/30/kid-vids-rejection/"/>
+    <link href="http://mmorris.github.io/2012/09/30/kid-vids-rejection/"/>
     <updated>2012-09-30T14:43:00-04:00</updated>
-    <id>http://mattmorr.is/2012/09/30/kid-vids-rejection</id>
+    <id>http://mmorris.github.io/2012/09/30/kid-vids-rejection</id>
     <content type="html"><![CDATA[<p>Shortly after the iPhone 5 announcement, I began updating <a href="http://bit.ly/NeDHS2">Kid Vids</a> for compatibility with the larger screen. Since Kid Vids is a video player, I was especially excited to take advantage of the 16x9 aspect ratio.</p>
 
 <p>To my surprise, this update was rejected due to copyright concerns.</p>
@@ -94,9 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Experience with LASIK]]></title>
-    <link href="http://mattmorr.is/2012/07/14/my-experience-with-lasik/"/>
+    <link href="http://mmorris.github.io/2012/07/14/my-experience-with-lasik/"/>
     <updated>2012-07-14T12:25:00-04:00</updated>
-    <id>http://mattmorr.is/2012/07/14/my-experience-with-lasik</id>
+    <id>http://mmorris.github.io/2012/07/14/my-experience-with-lasik</id>
     <content type="html"><![CDATA[<p>Two months ago, in preparation for <a href="http://en.wikipedia.org/wiki/LASIK">LASIK</a> eye surgery, I searched the internet for accounts of people&rsquo;s experiences with the procedure. I found a wide variety of results, most of which were positive. Since I didn&rsquo;t find anything from the point of view of a professional programmer, I will leave my account here.</p>
 
 <!--more-->

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: cocoaheads | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/cocoaheads/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/cocoaheads/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cocoaheads: Jackson, MS]]></title>
-    <link href="http://mattmorr.is/2012/07/03/cocoaheads-jackson/"/>
+    <link href="http://mmorris.github.io/2012/07/03/cocoaheads-jackson/"/>
     <updated>2012-07-03T08:57:00-04:00</updated>
-    <id>http://mattmorr.is/2012/07/03/cocoaheads-jackson</id>
+    <id>http://mmorris.github.io/2012/07/03/cocoaheads-jackson</id>
     <content type="html"><![CDATA[<p>Some other local Mac/iOS developers and I are currently trying to gague interest in a local <a href="http://cocoaheads.org">Cocoaheads</a> chapter. Meetings will most likely be in the Ridgeland/Madison area. If you would be interested, please reach out via <a href="http://www.twitter.com/boxel">Twitter</a> or one of my other <a href="http://mattmorr.is/contact">contact methods</a>.</p>
 ]]></content>
   </entry>

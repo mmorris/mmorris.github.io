@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iOS | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/ios/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/ios/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Doc Vault]]></title>
-    <link href="http://mattmorr.is/2013/01/01/doc-vault/"/>
+    <link href="http://mmorris.github.io/2013/01/01/doc-vault/"/>
     <updated>2013-01-01T10:33:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/01/doc-vault</id>
+    <id>http://mmorris.github.io/2013/01/01/doc-vault</id>
     <content type="html"><![CDATA[<p>I recently launched my second personal app on the iOS App Store. <a href="http://bit.ly/X8PuYu">Doc Vault</a> is a way to capture documents that you don&rsquo;t want cluttering up your camera roll, or automaticaly sent to Photo Stream or some other third-party service.</p>
 
 <!--more-->

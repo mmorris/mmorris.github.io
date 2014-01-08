@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blogging | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/blogging/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Back to Octopress Master]]></title>
-    <link href="http://mattmorr.is/2013/08/18/back-to-octopress-master/"/>
+    <link href="http://mmorris.github.io/2013/08/18/back-to-octopress-master/"/>
     <updated>2013-08-18T20:58:00-04:00</updated>
-    <id>http://mattmorr.is/2013/08/18/back-to-octopress-master</id>
+    <id>http://mmorris.github.io/2013/08/18/back-to-octopress-master</id>
     <content type="html"><![CDATA[<p>After playing with the <a href="http://octopress.org/docs/blogging/linklog/">link log</a> feature in the Octopress 2.1, and now <a href="https://github.com/imathis/octopress/tree/3.0">3.0</a>, branches, I&rsquo;ve decided to come back to the master branch. Octopress 3.0 looks like it&rsquo;s going to be very nice, but things are too unstable for me at the moment. I shouldn&rsquo;t be spending so much time hacking on the site itself when there is actual work to do.</p>
 
 <p>For the linklog posts I&rsquo;ve already made, I just edited the entry with a link to the external URL in the body of the post. Apologies if this causes repeat entries to appear in your RSS feed.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[In Lieu of Ads]]></title>
-    <link href="http://mattmorr.is/2013/04/20/in-lieu-of-ads/"/>
+    <link href="http://mmorris.github.io/2013/04/20/in-lieu-of-ads/"/>
     <updated>2013-04-20T00:11:04-04:00</updated>
-    <id>http://mattmorr.is/2013/04/20/in-lieu-of-ads</id>
+    <id>http://mmorris.github.io/2013/04/20/in-lieu-of-ads</id>
     <content type="html"><![CDATA[<p>I recently saw <a href="https://github.com/begriffs/lucre">this project</a> in my news feed and wanted to give it a try. It&rsquo;s a simple rails app that gives you an easy way to accept credit card payments online. I&rsquo;ve never liked the way that ads looked on my site, so I&rsquo;m going to run a &ldquo;tip me&rdquo; button for a while and see how that works.</p>
 
 <p>If you find one of my posts useful, or if you&rsquo;d just like to buy me a coffee, <a href="http://pay-matt.herokuapp.com">give it a try</a>.</p>
@@ -37,18 +37,18 @@
   
   <entry>
     <title type="html"><![CDATA[Trying Out Octopress 2.1]]></title>
-    <link href="http://mattmorr.is/2013/02/24/trying-out-octopress-2-dot-1/"/>
+    <link href="http://mmorris.github.io/2013/02/24/trying-out-octopress-2-dot-1/"/>
     <updated>2013-02-24T21:45:05-05:00</updated>
-    <id>http://mattmorr.is/2013/02/24/trying-out-octopress-2-dot-1</id>
+    <id>http://mmorris.github.io/2013/02/24/trying-out-octopress-2-dot-1</id>
     <content type="html"><![CDATA[<p>This site is now running <a href="https://github.com/imathis/octopress/tree/2.1">Octopress 2.1</a> (still in beta). The most notable new feature is its <a href="http://octopress.org/docs/blogging/linklog/">support for linklogs</a>, which is pretty exciting. Apologies if you see any hiccups in the RSS feed while I tinker with the site.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Amazon Static Hosting Cost]]></title>
-    <link href="http://mattmorr.is/2013/02/04/amazon-static-hosting-cost/"/>
+    <link href="http://mmorris.github.io/2013/02/04/amazon-static-hosting-cost/"/>
     <updated>2013-02-04T20:54:00-05:00</updated>
-    <id>http://mattmorr.is/2013/02/04/amazon-static-hosting-cost</id>
+    <id>http://mmorris.github.io/2013/02/04/amazon-static-hosting-cost</id>
     <content type="html"><![CDATA[<p>A little over a month ago, I <a href="http://mattmorr.is/blog/2012/12/28/hosting-a-naked-domain-on-amazon-s3/">moved this site to Amazon S3 Static Hosting</a>. I&rsquo;ve just received the bill for the first full month using the service. Here are the details.</p>
 
 <!--more-->
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hosting a Naked Domain on Amazon S3]]></title>
-    <link href="http://mattmorr.is/2012/12/28/hosting-a-naked-domain-on-amazon-s3/"/>
+    <link href="http://mmorris.github.io/2012/12/28/hosting-a-naked-domain-on-amazon-s3/"/>
     <updated>2012-12-28T21:46:00-05:00</updated>
-    <id>http://mattmorr.is/2012/12/28/hosting-a-naked-domain-on-amazon-s3</id>
+    <id>http://mmorris.github.io/2012/12/28/hosting-a-naked-domain-on-amazon-s3</id>
     <content type="html"><![CDATA[<p>A few months ago I experimented with hosting this website on <a href="http://aws.amazon.com/s3">Amazon S3</a>. It&rsquo;s trivial to setup an s3 bucket as a website, and <a href="http://ponyho.st">ponyHost</a> makes it a breeze to deploy an <a href="http://www.octopress.org">Octopress</a> website to the bucket. Static HTML/CSS + S3 hosting make for a very snappy website. However, at that time there was no clean way to use S3 to host a <a href="http://en.wikipedia.org/wiki/Root_domain">root domain</a>, so I abandoned the effort.</p>
 
 <p>Then just this morning, Amazon announced support for root domains with Amazon S3 hosted websites.</p>

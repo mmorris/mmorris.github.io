@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: App Store | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/app-store/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/app-store/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kid Vids Rejection]]></title>
-    <link href="http://mattmorr.is/2012/09/30/kid-vids-rejection/"/>
+    <link href="http://mmorris.github.io/2012/09/30/kid-vids-rejection/"/>
     <updated>2012-09-30T14:43:00-04:00</updated>
-    <id>http://mattmorr.is/2012/09/30/kid-vids-rejection</id>
+    <id>http://mmorris.github.io/2012/09/30/kid-vids-rejection</id>
     <content type="html"><![CDATA[<p>Shortly after the iPhone 5 announcement, I began updating <a href="http://bit.ly/NeDHS2">Kid Vids</a> for compatibility with the larger screen. Since Kid Vids is a video player, I was especially excited to take advantage of the 16x9 aspect ratio.</p>
 
 <p>To my surprise, this update was rejected due to copyright concerns.</p>

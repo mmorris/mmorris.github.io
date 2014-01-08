@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: reviews | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/reviews/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Glif Plus]]></title>
-    <link href="http://mattmorr.is/2013/01/20/glif-plus/"/>
+    <link href="http://mmorris.github.io/2013/01/20/glif-plus/"/>
     <updated>2013-01-20T14:48:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/20/glif-plus</id>
+    <id>http://mmorris.github.io/2013/01/20/glif-plus</id>
     <content type="html"><![CDATA[<p>I enjoy being our unofficial family photographer. Since the birth of our first son almost three years ago, I&rsquo;ve shot about a terabyte of images and video of our family. Recently, I&rsquo;ve been going through our Aperture library, culling duplicates and deleting bad images, and I&rsquo;ve come to realize two things about the video I&rsquo;ve shot.</p>
 
 <!--more-->
@@ -47,18 +47,18 @@
   
   <entry>
     <title type="html"><![CDATA[Vicious for Xcode]]></title>
-    <link href="http://mattmorr.is/2013/01/07/vicious-for-xcode/"/>
+    <link href="http://mmorris.github.io/2013/01/07/vicious-for-xcode/"/>
     <updated>2013-01-07T20:41:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/07/vicious-for-xcode</id>
+    <id>http://mmorris.github.io/2013/01/07/vicious-for-xcode</id>
     <content type="html"><![CDATA[<p>I&rsquo;d like to recommend a tool that I&rsquo;ve been using over the past few weeks. <a href="http://viciousapp.com">Vicious</a> is a plugin for Xcode that provides Vi keybindings in the text editor. When I first heard about it, I was skeptical that it could actually deliver on this promise, but I&rsquo;ve been pleasantly surprised. I&rsquo;ve used Vi for years, so I have a great deal of Vi muscle memory stored up in my fingers. Give it a try if you know Vi and have to work with Xcode.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Matias Tactile Pro 3]]></title>
-    <link href="http://mattmorr.is/2012/03/04/matias-tactile-pro-3/"/>
+    <link href="http://mmorris.github.io/2012/03/04/matias-tactile-pro-3/"/>
     <updated>2012-03-04T11:22:00-05:00</updated>
-    <id>http://mattmorr.is/2012/03/04/matias-tactile-pro-3</id>
+    <id>http://mmorris.github.io/2012/03/04/matias-tactile-pro-3</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been using the <a href="http://www.apple.com/keyboard/">Apple Wireless Keyboard</a> for some time now. I really liked it when I first started using it, but recently I&rsquo;ve become dissatisfied with it for various reasons. I&rsquo;ve even started to blame it for some pain I&rsquo;ve been having in my finger joints. So, a few weeks ago I decided to try a 3rd party Mac keyboard. I ordered a <a href="http://amzn.to/I4uB3o">Tactile Pro 3</a>, and here are my thoughts.</p>
 
 <!--more-->

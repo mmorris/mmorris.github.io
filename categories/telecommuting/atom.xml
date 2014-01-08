@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: telecommuting | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/telecommuting/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/telecommuting/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Working from Home]]></title>
-    <link href="http://mattmorr.is/2013/07/21/working-from-home/"/>
+    <link href="http://mmorris.github.io/2013/07/21/working-from-home/"/>
     <updated>2013-07-21T21:16:12-04:00</updated>
-    <id>http://mattmorr.is/2013/07/21/working-from-home</id>
+    <id>http://mmorris.github.io/2013/07/21/working-from-home</id>
     <content type="html"><![CDATA[<p>For the past five years, I have worked in a traditional office. A few weeks ago, I moved a thousand miles across the country and became a telecommuter. Several months before the move, I started gathering material to try to help me prepare for the new work situation. Here are a few I found useful.</p>
 
 <!--more-->

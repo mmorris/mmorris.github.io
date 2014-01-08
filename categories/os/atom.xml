@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OS | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/os/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/os/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[launchctl asuser]]></title>
-    <link href="http://mattmorr.is/2013/04/24/launchctl-asuser/"/>
+    <link href="http://mmorris.github.io/2013/04/24/launchctl-asuser/"/>
     <updated>2013-04-24T23:54:44-04:00</updated>
-    <id>http://mattmorr.is/2013/04/24/launchctl-asuser</id>
+    <id>http://mmorris.github.io/2013/04/24/launchctl-asuser</id>
     <content type="html"><![CDATA[<p><a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/launchd.8.html">launchd</a> provides many ways to configure when and under what conditions a job is started. You can define agents that run for each user, or daemons that run as root outside of a GUI context.</p>
 
 <p>The launchctl command is a convenient way to interface with launchd. Recently I came across a command in the <a href="http://www.opensource.apple.com/source/launchd/launchd-442.26.2/support/launchctl.c">launchctl source code</a> that is not documented in the launchctl man page. The &lsquo;asuser&rsquo; command can apparently be used to &ldquo;Execute a subcommand in the given user&rsquo;s context.&rdquo; This would mean that you could use this from a Launch Daemon to spawn a GUI process for a given user, which could be very useful in certain circumstances.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: google | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/google/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/google/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google is about to learn a tough lesson]]></title>
-    <link href="http://mattmorr.is/2013/03/16/google-is-about-to-learn-a-tough-lesson/"/>
+    <link href="http://mmorris.github.io/2013/03/16/google-is-about-to-learn-a-tough-lesson/"/>
     <updated>2013-03-16T10:26:00-04:00</updated>
-    <id>http://mattmorr.is/2013/03/16/google-is-about-to-learn-a-tough-lesson</id>
+    <id>http://mmorris.github.io/2013/03/16/google-is-about-to-learn-a-tough-lesson</id>
     <content type="html"><![CDATA[<p>Some interesting points about social influencers and the Google Reader cancellation. I may not be an &ldquo;influencer&rdquo; at the level of a tech journalist, but I have already taken the first steps toward moving my immediate family to a paid email provider.</p>
 ]]></content>
   </entry>

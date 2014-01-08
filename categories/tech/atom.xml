@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tech | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/tech/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/tech/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sync Adium Chat History with Dropbox]]></title>
-    <link href="http://mattmorr.is/2012/03/06/sync-adium-chat-history-with-dropbox/"/>
+    <link href="http://mmorris.github.io/2012/03/06/sync-adium-chat-history-with-dropbox/"/>
     <updated>2012-03-06T20:46:00-05:00</updated>
-    <id>http://mattmorr.is/2012/03/06/sync-adium-chat-history-with-dropbox</id>
+    <id>http://mmorris.github.io/2012/03/06/sync-adium-chat-history-with-dropbox</id>
     <content type="html"><![CDATA[<p>Ever wished <a href="http://adium.im">Adium</a> would share its chat history across all your Macs? This script will move your chat history to your <a href="http://db.tt/4rwGGFac">Dropbox</a> folder. It will not merge your history from other computers. Just drag that over manually for each account.</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>drop_adium.sh  (drop_adium.sh)</span> <a href='/downloads/code/drop_adium.sh'>download</a></figcaption>
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[Photo Stream Chokes the Tubes]]></title>
-    <link href="http://mattmorr.is/2012/03/01/photo-stream-chokes-the-tubes/"/>
+    <link href="http://mmorris.github.io/2012/03/01/photo-stream-chokes-the-tubes/"/>
     <updated>2012-03-01T21:50:00-05:00</updated>
-    <id>http://mattmorr.is/2012/03/01/photo-stream-chokes-the-tubes</id>
+    <id>http://mmorris.github.io/2012/03/01/photo-stream-chokes-the-tubes</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve recently become annoyed enough with <a href="http://www.apple.com/icloud/features/photo-stream.html">Photo Stream</a> that I&rsquo;ve disabled it on my iPhone. The issue is that it&rsquo;s consuming all the available upstream bandwith that my home internet connection can provide. My wife will be working on Google Docs and suddenly wonder why things stop working just as I start taking pictures of the kids' antics.</p>
 
 <p>Admittedly, my home connection is pretty puny. My max sustained upstream is about 57KB/s. And when this is maxed out, no ACKs can go out, and even downstream traffic slows to a drip.</p>

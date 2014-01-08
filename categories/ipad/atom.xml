@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iPad | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/ipad/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/ipad/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[When Rainbows Attack]]></title>
-    <link href="http://mattmorr.is/2012/03/26/colors-that-lie/"/>
+    <link href="http://mmorris.github.io/2012/03/26/colors-that-lie/"/>
     <updated>2012-03-26T11:59:00-04:00</updated>
-    <id>http://mattmorr.is/2012/03/26/colors-that-lie</id>
+    <id>http://mmorris.github.io/2012/03/26/colors-that-lie</id>
     <content type="html"><![CDATA[<p>After reading some of the <a href="http://www.marco.org/2012/03/20/consumer-reports-sensationalism">recent commentary</a> regarding Consumer Reports' sensationalistic report of the New iPad&rsquo;s running temperature, I  would like to also point out the problems that come with using a rainbow color map in a visualization such as this.</p>
 
 <p>A color map is simply a look-up table that maps a range of values into a range of colors. Color maps are frequently used in medical and other scientific visualizations to achieve expressive visualizations. A carefully chosen color map can reveal important characteristics of the data under investigation. But a poor color map can actually introduce artifacts into the final image.</p>

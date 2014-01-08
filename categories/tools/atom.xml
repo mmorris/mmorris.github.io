@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tools | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/tools/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/tools/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Migrating from LastPass to 1Password]]></title>
-    <link href="http://mattmorr.is/2013/02/01/migrating-from-lastpass-to-1password/"/>
+    <link href="http://mmorris.github.io/2013/02/01/migrating-from-lastpass-to-1password/"/>
     <updated>2013-02-01T17:19:00-05:00</updated>
-    <id>http://mattmorr.is/2013/02/01/migrating-from-lastpass-to-1password</id>
+    <id>http://mmorris.github.io/2013/02/01/migrating-from-lastpass-to-1password</id>
     <content type="html"><![CDATA[<p>Today I decided to give <a href="https://agilebits.com/onepassword">1Password</a> a try. I&rsquo;ve been a <a href="http://lastpass.com">LastPass</a> user for some time now, but I&rsquo;ve always felt that their iPhone app left much to be desired. The 1Password apps are currently on sale for Macworld 2013, so I figured it&rsquo;s as good a time as any to give it a shot. Here&rsquo;s how I migrated my data from LastPass.</p>
 
 <!--more-->
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Glif Plus]]></title>
-    <link href="http://mattmorr.is/2013/01/20/glif-plus/"/>
+    <link href="http://mmorris.github.io/2013/01/20/glif-plus/"/>
     <updated>2013-01-20T14:48:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/20/glif-plus</id>
+    <id>http://mmorris.github.io/2013/01/20/glif-plus</id>
     <content type="html"><![CDATA[<p>I enjoy being our unofficial family photographer. Since the birth of our first son almost three years ago, I&rsquo;ve shot about a terabyte of images and video of our family. Recently, I&rsquo;ve been going through our Aperture library, culling duplicates and deleting bad images, and I&rsquo;ve come to realize two things about the video I&rsquo;ve shot.</p>
 
 <!--more-->
@@ -96,9 +96,9 @@
   
   <entry>
     <title type="html"><![CDATA[Vicious for Xcode]]></title>
-    <link href="http://mattmorr.is/2013/01/07/vicious-for-xcode/"/>
+    <link href="http://mmorris.github.io/2013/01/07/vicious-for-xcode/"/>
     <updated>2013-01-07T20:41:00-05:00</updated>
-    <id>http://mattmorr.is/2013/01/07/vicious-for-xcode</id>
+    <id>http://mmorris.github.io/2013/01/07/vicious-for-xcode</id>
     <content type="html"><![CDATA[<p>I&rsquo;d like to recommend a tool that I&rsquo;ve been using over the past few weeks. <a href="http://viciousapp.com">Vicious</a> is a plugin for Xcode that provides Vi keybindings in the text editor. When I first heard about it, I was skeptical that it could actually deliver on this promise, but I&rsquo;ve been pleasantly surprised. I&rsquo;ve used Vi for years, so I have a great deal of Vi muscle memory stored up in my fingers. Give it a try if you know Vi and have to work with Xcode.</p>
 ]]></content>
   </entry>

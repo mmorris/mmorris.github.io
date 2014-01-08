@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mac | Matt Morris]]></title>
-  <link href="http://mattmorr.is/categories/mac/atom.xml" rel="self"/>
-  <link href="http://mattmorr.is/"/>
-  <updated>2013-12-28T10:58:19-05:00</updated>
-  <id>http://mattmorr.is/</id>
+  <link href="http://mmorris.github.io/categories/mac/atom.xml" rel="self"/>
+  <link href="http://mmorris.github.io/"/>
+  <updated>2014-01-07T20:20:36-05:00</updated>
+  <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cellular Networking on OS X]]></title>
-    <link href="http://mattmorr.is/2013/02/26/cellular-networking-on-os-x/"/>
+    <link href="http://mmorris.github.io/2013/02/26/cellular-networking-on-os-x/"/>
     <updated>2013-02-26T22:00:02-05:00</updated>
-    <id>http://mattmorr.is/2013/02/26/cellular-networking-on-os-x</id>
+    <id>http://mmorris.github.io/2013/02/26/cellular-networking-on-os-x</id>
     <content type="html"><![CDATA[<p>Lamenting the lack of cellular-aware APIs in 10.8, <a href="http://www.marco.org/2013/02/26/why-no-4g-macbooks">Marco writes</a>,
 <blockquote><p>I was hoping Mountain Lion would add some APIs suggesting cellular data considerations, but it didn’t happen. Maybe 10.9 will.</p></blockquote></p>
 
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Interception Source Code]]></title>
-    <link href="http://mattmorr.is/2012/08/22/interception-source-code/"/>
+    <link href="http://mmorris.github.io/2012/08/22/interception-source-code/"/>
     <updated>2012-08-22T21:43:00-04:00</updated>
-    <id>http://mattmorr.is/2012/08/22/interception-source-code</id>
+    <id>http://mmorris.github.io/2012/08/22/interception-source-code</id>
     <content type="html"><![CDATA[<p>In light of the recent <a href="https://dev.twitter.com/blog/changes-coming-to-twitter-api">announcement</a> regarding version 1.1 of the Twitter API, it now makes sense why clicking on a Twitter notification in notification center launches Safari. To make sure that they can show us ads when they want to, they&rsquo;re driving as many people as they can to the official Twitter UI.</p>
 
 <p>So, I&rsquo;ve decided to go ahead and push the <a href="https://github.com/mmorris/Interception">code</a> for Interception to github in case anyone wants to enhance it.</p>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[Notification Center and Native Twitter Clients]]></title>
-    <link href="http://mattmorr.is/2012/07/29/notification-center-and-native-twitter-clients/"/>
+    <link href="http://mmorris.github.io/2012/07/29/notification-center-and-native-twitter-clients/"/>
     <updated>2012-07-29T00:11:00-04:00</updated>
-    <id>http://mattmorr.is/2012/07/29/notification-center-and-native-twitter-clients</id>
+    <id>http://mmorris.github.io/2012/07/29/notification-center-and-native-twitter-clients</id>
     <content type="html"><![CDATA[<p>Late last week, I finally got around to setting up Twitter as an account on Mountain Lion. I was disappointed to see that clicking a Twitter notification launches the default web browser and not Twitter.app or any other client. I do not enjoy using Twitter&rsquo;s web interface, so I wrote a simple application that forwards these clicks to a native Twitter application of your choice.</p>
 
 <!--more-->
@@ -96,9 +96,9 @@
   
   <entry>
     <title type="html"><![CDATA[DuckDuckGo for Safari]]></title>
-    <link href="http://mattmorr.is/2012/04/11/duckduckgo-for-safari/"/>
+    <link href="http://mmorris.github.io/2012/04/11/duckduckgo-for-safari/"/>
     <updated>2012-04-11T20:34:00-04:00</updated>
-    <id>http://mattmorr.is/2012/04/11/duckduckgo-for-safari</id>
+    <id>http://mmorris.github.io/2012/04/11/duckduckgo-for-safari</id>
     <content type="html"><![CDATA[<p><a href="http://duckduckgo.com">DuckDuckGo</a> is a popular alternative to Google Search. Unfortunately it&rsquo;s not one of the search engines supported in Safari by default. Their <a href="http://help.duckduckgo.com/customer/portal/articles/255650">instructions</a> detail how to manually edit the /etc/hosts file to trick Safari into using DuckDuckGo instead of Yahoo.</p>
 
 <p>The problem is that ceratin 3rd party applications, most notably the Cisco VPN Client, modify /etc/hosts in order to accomplish their purpose. In the case of the Cisco VPN Client, the custom DuckDuckGo/Yahoo entry is lost whenever this happens.</p>
@@ -109,9 +109,9 @@
   
   <entry>
     <title type="html"><![CDATA[Matias Tactile Pro 3]]></title>
-    <link href="http://mattmorr.is/2012/03/04/matias-tactile-pro-3/"/>
+    <link href="http://mmorris.github.io/2012/03/04/matias-tactile-pro-3/"/>
     <updated>2012-03-04T11:22:00-05:00</updated>
-    <id>http://mattmorr.is/2012/03/04/matias-tactile-pro-3</id>
+    <id>http://mmorris.github.io/2012/03/04/matias-tactile-pro-3</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been using the <a href="http://www.apple.com/keyboard/">Apple Wireless Keyboard</a> for some time now. I really liked it when I first started using it, but recently I&rsquo;ve become dissatisfied with it for various reasons. I&rsquo;ve even started to blame it for some pain I&rsquo;ve been having in my finger joints. So, a few weeks ago I decided to try a 3rd party Mac keyboard. I ordered a <a href="http://amzn.to/I4uB3o">Tactile Pro 3</a>, and here are my thoughts.</p>
 
 <!--more-->
