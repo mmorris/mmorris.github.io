@@ -4,7 +4,7 @@
   <title><![CDATA[Matt Morris]]></title>
   <link href="http://mmorris.github.io/atom.xml" rel="self"/>
   <link href="http://mmorris.github.io/"/>
-  <updated>2014-01-18T17:52:42-05:00</updated>
+  <updated>2014-01-18T18:25:35-05:00</updated>
   <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
@@ -18,7 +18,7 @@
     <link href="http://mmorris.github.io/2014/01/18/playing-around-with-the-fitbit-api/"/>
     <updated>2014-01-18T17:23:00-05:00</updated>
     <id>http://mmorris.github.io/2014/01/18/playing-around-with-the-fitbit-api</id>
-    <content type="html"><![CDATA[<p>I recently became interested in pulling some of my own personal data from the <a href="http://dev.fitbit.com/">Fitbit API</a>. I&rsquo;ve never used OAuth before, and it&rsquo;s been years since I last made any serious use of python, but I managed to throw together a small program that does a few basic things. Currently it just posts your cumulative year to date total floors climbed to Twitter. Feel free to have a look at the <a href="https://github.com/mmorris/FitTweets">github project</a>.</p>
+    <content type="html"><![CDATA[<p>I recently became interested in pulling some of my own personal data from the <a href="http://dev.fitbit.com/">Fitbit API</a>. I&rsquo;ve never used OAuth before, and it&rsquo;s been years since I last made any serious use of python, but I managed to throw together a small program that does a few basic things. Currently it just posts your cumulative year to date total floors climbed to Twitter. Feel free to have a look at the <a href="https://github.com/mmorris/FitTweets">github project</a> or <a href="https://twitter.com/mattsfitbit">see it in action</a>.</p>
 
 <p>It was right about when I got this far with the project that I realized that there is <a href="http://blog.app.net/2013/11/12/a-simple-way-to-get-started-with-the-app-net-api/">now a free way</a> to play around with the <a href="http://developers.app.net/">App.net API</a>. So I&rsquo;ll be adding ADN support and make it into a more interesting bot.</p>
 ]]></content>
