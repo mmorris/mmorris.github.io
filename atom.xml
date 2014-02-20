@@ -4,7 +4,7 @@
   <title><![CDATA[Matt Morris]]></title>
   <link href="http://mmorris.github.io/atom.xml" rel="self"/>
   <link href="http://mmorris.github.io/"/>
-  <updated>2014-02-20T10:41:06-05:00</updated>
+  <updated>2014-02-20T11:27:50-05:00</updated>
   <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
@@ -18,7 +18,7 @@
     <link href="http://mmorris.github.io/2014/02/19/charting-dividend-reinvestment-aapl/"/>
     <updated>2014-02-19T21:12:00-05:00</updated>
     <id>http://mmorris.github.io/2014/02/19/charting-dividend-reinvestment-aapl</id>
-    <content type="html"><![CDATA[<p>I recently realized that I didn&rsquo;t know how to chart a stock so that it shows what the return would be with and without dividend reinvestment. Neither Google nor Yahoo&rsquo;s finance sites appear to have this capability, but I finally found a way to do it.</p>
+    <content type="html"><![CDATA[<p>I recently wanted to see a graph of a particular stock assuming dividend reinvestment. This seems like it would be a common thing to do, but neither Google nor Yahoo&rsquo;s finance sites appear to have the capability. After a bit of searching, I found a way to do it.</p>
 
 <!--more-->
 
