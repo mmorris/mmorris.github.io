@@ -4,7 +4,7 @@
   <title><![CDATA[Matt Morris]]></title>
   <link href="http://mmorris.github.io/atom.xml" rel="self"/>
   <link href="http://mmorris.github.io/"/>
-  <updated>2014-02-20T08:26:31-05:00</updated>
+  <updated>2014-02-20T10:41:06-05:00</updated>
   <id>http://mmorris.github.io/</id>
   <author>
     <name><![CDATA[Matt Morris]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Charting Dividend Reinvestment: AAPL]]></title>
+    <link href="http://mmorris.github.io/2014/02/19/charting-dividend-reinvestment-aapl/"/>
+    <updated>2014-02-19T21:12:00-05:00</updated>
+    <id>http://mmorris.github.io/2014/02/19/charting-dividend-reinvestment-aapl</id>
+    <content type="html"><![CDATA[<p>I recently realized that I didn&rsquo;t know how to chart a stock so that it shows what the return would be with and without dividend reinvestment. Neither Google nor Yahoo&rsquo;s finance sites appear to have this capability, but I finally found a way to do it.</p>
+
+<!--more-->
+
+
+<p><img src="http://mmorris.github.io/images/aapl-div-2.png"></p>
+
+<p>So here, I&rsquo;ve plotted $AAPL over the past two years with and without dividend reinvestment. Note that $AAPL first paid a divident in Augustof 2012, so it&rsquo;s logical that the graph begins to diverge shortly after that. Currently the difference in return is about <strong>4.3%</strong> over the two years.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>You can <a href="http://stockcharts.com/h-sc/ui?s=AAPL&amp;p=D&amp;yr=2&amp;mn=0&amp;dy=0&amp;id=p55967354272">fiddle with this graph</a> yourself. Interestingly, <a href="www.stockcharts.com">stockcharts.com</a> appears to assume dividend reinvestment by default, while Google Finance and Yahoo Finance do not.</p>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:1">
+        <p>As always, if you spot any error, let me know and I&#8217;ll post a correction.<p>
+    </li>
+</ol></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Playing Around with the Fitbit API]]></title>
@@ -474,102 +499,6 @@
 <p>I realize that if you&rsquo;re favorite Twitter client is in the Mac App Store, it can use push notifications in Mountain Lion, in which case Interception won&rsquo;t really be that useful. I&rsquo;ve really been enoying Tweetbot for Mac, but it&rsquo;s currently in alpha and doesn&rsquo;t yet support remote push notifications. This application grew out of a script I wrote because I wanted to be able to launch Tweetbot from a notification even if Tweetbot wasn&rsquo;t already running.</p>
 
 <p>Incidentally, I&rsquo;ve lost track of how many times I typed &ldquo;Inception&rdquo; while writing this post.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Experience with LASIK]]></title>
-    <link href="http://mmorris.github.io/2012/07/14/my-experience-with-lasik/"/>
-    <updated>2012-07-14T12:25:00-04:00</updated>
-    <id>http://mmorris.github.io/2012/07/14/my-experience-with-lasik</id>
-    <content type="html"><![CDATA[<p>Two months ago, in preparation for <a href="http://en.wikipedia.org/wiki/LASIK">LASIK</a> eye surgery, I searched the internet for accounts of people&rsquo;s experiences with the procedure. I found a wide variety of results, most of which were positive. Since I didn&rsquo;t find anything from the point of view of a professional programmer, I will leave my account here.</p>
-
-<!--more-->
-
-
-<h2>The Facts</h2>
-
-<ul>
-<li>Pre-surgery, I was highly <a href="http://en.wikipedia.org/wiki/Myopia">myopic</a> with a prescription of -8.75 in both eyes.</li>
-<li>Pre-surgery, my vision was correctable to 20/15 (better than 20/20)</li>
-<li>Date of surgery: May 30th, 2012 @ 7:30am</li>
-<li>Post-surgery prescription, measured the day after surgery:
-
-<ul>
-<li>Left Eye:  -0.25</li>
-<li>Right Eye: -0.75</li>
-</ul>
-</li>
-</ul>
-
-
-<p>I&rsquo;m told that &ndash;.25 is effectively 20/20.</p>
-
-<h2>My Daily Routine</h2>
-
-<p>I believe that <strong>how</strong> you use your eyes every day is an important factor to consider when thinking about LASIK. For someone in a career that requires almost constant use of a computer, having clear and reliable vision is very important. To give a clearer picture of my results and whether or not you can draw any conclusions from my impressions, here is a rough outline of my typical day.</p>
-
-<ul>
-<li>Awake at 5:45</li>
-<li>Leave house by 6:45</li>
-<li>40+ minute commute</li>
-<li>At work: 8+ hours of programming</li>
-<li>Workout during lunch</li>
-<li>40+ minute commute</li>
-<li>Dinner + family time.</li>
-<li>Once kids are asleep: 4+ hours of programming on personal projects.</li>
-</ul>
-
-
-<p>(Note: This is the fullest possible schedule. I can&rsquo;t pull this off every day.)</p>
-
-<p>During the pre-surgery interviews with the surgeon, I explained that I am a professional programmer and asked if I could be expected to return to work the next day. Answer: yes.</p>
-
-<h2>The Surgery</h2>
-
-<p>The surgery itself was not a big deal. It was a little uncomfortable at one point when a suction device is attached to the eye, but that didn&rsquo;t last long. When I first got up from the opterating table, everything appeared as if I were underwater. This was, in fact, because there is actually fluid in the eye that drains away over the next 24-48 hours.</p>
-
-<h2>Recovery, Day 0</h2>
-
-<p>After the surgery, I was driven home by a family member. There was no pain, but my vision was cloudy and I would have been unable to drive. My two boys were at home with a babysitter. Once home, I attempted to close my eyes and rest, at the recommendation of the surgeon.</p>
-
-<p>Later that day there was more discomfort, but my vision was already beginning to clear. I cooked the boys dinner and got them ready for bed with no problem.</p>
-
-<p>Once they were asleep in bed, I sat down at the computer to check my email and maybe try to work on some of my apps. <strong>I was barely able to read email.</strong> Needless to say, I was a little concerned, since I was scheduled to return to work the next day. But I decided not to worry about it for the time being, hoping that 8 hours of sleep would give my eyes time to rest and recover.</p>
-
-<h2>Recovery, Day 1: Halos</h2>
-
-<p>The next day I realized that I was seeing the dreaded &ldquo;halo&rdquo; effect that I had read about online. Around every light source, I saw a very noticeable ring of light. It turns out that this didn&rsquo;t really bother me when I was doing most &ldquo;normal&rdquo; activities. Computer screens, however, turned out to be a problem. They emit light, and when reading text on screen, each character produced its own halo, and every halo overlapped with the ones adjacent to it. This created an unbearable blurring effect that made it very difficult to read on-screen text.</p>
-
-<p>In fact, I went in for a 24 hour followup that day. My prescription was measured using a autorefractor, and my vision was determined to be very close to 20/20. However, I was almost completely unable to read the letters on the eye chart. The eye chart appeared to be an LCD backlit display, and this was producing haloing effects around the letters.</p>
-
-<p>I did manage to get to work that day. However, it was frustrating becuase I had to place the screens mere inches from my face and increase the font in Xcode to rediculous sizes. It was so large that I suspected people could read my code from the hallway by my office.</p>
-
-<h2>Recovery, Week 1</h2>
-
-<p>The halo effect persisted well into the first week. It was still difficult to read a computer screen, but I found that if I used the <a href="http://www.amazon.com/gp/product/B000VS1HSA/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000VS1HSA&amp;linkCode=as2&amp;tag=matmor-20">lubricant eye drops</a> recommended by the doctor, it helped a great deal. Yes, the drops temporarily cleared my vision. I found that if I used the drops every 45 minutes or so, I could code the whole day without getting too frustrated.</p>
-
-<h2>One Month Later</h2>
-
-<p>At times I still have to use the lubricant eye drops in order to use a computer, but my vision has gradually improved to the point that I somteimes go several hours without having to do so.</p>
-
-<p>I&rsquo;ve been asked several times how satisfied I am with the procedure. I think that if I had any type of job that doesn&rsquo;t require reading code on a screen for 10+ hours a day, I would be 99% satisfied. As this is not the case, I would probably say that I am 85% satisfied.</p>
-
-<p>To this date, I still feel that my vision continues to improve. If you&rsquo;ve recently had LASIK and are concerned because your vision is still blurry, your eyes may still be healing. Try not to worry.</p>
-
-<h2>Tips</h2>
-
-<ul>
-<li>Close your eyes and rest as much as possible on the first day. I think I tried to do too much that first day and I wonder if it slowed my recovery.</li>
-<li>If you experience halos and have trouble reading a computer screen, try the <a href="http://www.amazon.com/gp/product/B000VS1HSA/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000VS1HSA&amp;linkCode=as2&amp;tag=matmor-20">lubricant eye drops</a>.</li>
-<li>Use them frequently, even if the dryness doesn&rsquo;t bother you.</li>
-<li><strong>Try to schedule a short vacation from work beginning the day of your surgery. If this is not possible, try to schedule the surgery right before a 3-day weekend.</strong> Reading a computer screen as part of a demanding job was stressful during these first days, but driving, cooking, playing with the kids, etc. was not a problem at all. Drive to the coast and get some rest.</li>
-</ul>
-
-
-<h2>Fun Fact</h2>
-
-<p>Radial Keratotomy, a predecessor to the LASIK procedure, was discovered by accident after a young boy fell off his bycicle and broke his glasses. Some time after the doctor had removed the shards of glass from his eye, his visual acuity had improved. [<a href="http://en.wikipedia.org/wiki/Radial_keratotomy#Development">source</a>]</p>
 ]]></content>
   </entry>
   

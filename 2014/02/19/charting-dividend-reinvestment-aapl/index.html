@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Playing Around with the Fitbit API - Matt Morris</title>
+  <title>Charting Dividend Reinvestment: AAPL - Matt Morris</title>
   <meta name="author" content="Matt Morris">
 
   
-  <meta name="description" content="I recently became interested in pulling some of my own personal data from the Fitbit API. I&rsquo;ve never used OAuth before, and it&rsquo;s been &hellip;">
-  <meta name="keywords" content="fitbit, twitter, api, oauth, oauth2, python">
+  <meta name="description" content="I recently realized that I didn&rsquo;t know how to chart a stock so that it shows what the return would be with and without dividend reinvestment. &hellip;">
+  <meta name="keywords" content="Apple, AAPL, stock, dividend, stock chart, dividend reinvestment">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mmorris.github.io/2014/01/18/playing-around-with-the-fitbit-api">
+  <link rel="canonical" href="http://mmorris.github.io/2014/02/19/charting-dividend-reinvestment-aapl">
   <link href="/favicon.ico" rel="icon">
   
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -71,7 +71,7 @@
   
   <header>
     
-      <h1 class="entry-title">Playing Around with the Fitbit API</h1>
+      <h1 class="entry-title">Charting Dividend Reinvestment: AAPL</h1>
     
     
       <p class="meta">
@@ -87,16 +87,30 @@
   
 
 
-<time datetime="2014-01-18T17:23:00-05:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
+<time datetime="2014-02-19T21:12:00-05:00" pubdate data-updated="true">Feb 19<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I recently became interested in pulling some of my own personal data from the <a href="http://dev.fitbit.com/">Fitbit API</a>. I&rsquo;ve never used OAuth before, and it&rsquo;s been years since I last made any serious use of python, but I managed to throw together a small program that does a few basic things. Currently it just posts your cumulative year to date total floors climbed to Twitter. Feel free to have a look at the <a href="https://github.com/mmorris/FitTweets">github project</a> or <a href="https://twitter.com/mattsfitbit">see it in action</a>.</p>
+<div class="entry-content"><p>I recently realized that I didn&rsquo;t know how to chart a stock so that it shows what the return would be with and without dividend reinvestment. Neither Google nor Yahoo&rsquo;s finance sites appear to have this capability, but I finally found a way to do it.</p>
 
-<p>It was right about when I got this far with the project that I realized that there is <a href="http://blog.app.net/2013/11/12/a-simple-way-to-get-started-with-the-app-net-api/">now a free way</a> to play around with the <a href="http://developers.app.net/">App.net API</a>. So I&rsquo;ll be adding ADN support and make it into a more interesting bot.</p>
+<!--more-->
+
+
+<p><img src="/images/aapl-div-2.png"></p>
+
+<p>So here, I&rsquo;ve plotted $AAPL over the past two years with and without dividend reinvestment. Note that $AAPL first paid a divident in Augustof 2012, so it&rsquo;s logical that the graph begins to diverge shortly after that. Currently the difference in return is about <strong>4.3%</strong> over the two years.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>You can <a href="http://stockcharts.com/h-sc/ui?s=AAPL&amp;p=D&amp;yr=2&amp;mn=0&amp;dy=0&amp;id=p55967354272">fiddle with this graph</a> yourself. Interestingly, <a href="www.stockcharts.com">stockcharts.com</a> appears to assume dividend reinvestment by default, while Google Finance and Yahoo Finance do not.</p>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:1">
+        <p>As always, if you spot any error, let me know and I&#8217;ll post a correction.<p>
+    </li>
+</ol></div>
+
 </div>
 
 
@@ -119,12 +133,12 @@
   
 
 
-<time datetime="2014-01-18T17:23:00-05:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
+<time datetime="2014-02-19T21:12:00-05:00" pubdate data-updated="true">Feb 19<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/categories/programming/'>programming</a>, <a class='category' href='/categories/self/'>self,</a>
+    <a class='category' href='/categories/finance/'>finance</a>
   
 </span>
 
@@ -140,10 +154,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2013/08/18/back-to-octopress-master/" title="Previous Post: Back to Octopress Master">&laquo; Back to Octopress Master</a>
+        <a class="basic-alignment left" href="/2014/01/18/playing-around-with-the-fitbit-api/" title="Previous Post: Playing Around with the Fitbit API">&laquo; Playing Around with the Fitbit API</a>
       
-      
-        <a class="basic-alignment right" href="/2014/02/19/charting-dividend-reinvestment-aapl/" title="next Post: Charting Dividend Reinvestment: AAPL">Charting Dividend Reinvestment: AAPL &raquo;</a>
       
     </p>
   </footer>
