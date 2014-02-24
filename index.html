@@ -111,12 +111,32 @@
 
   <div class="entry-content"><p>I recently wanted to see a graph of a particular stock assuming dividend reinvestment. This seems like it would be a common thing to do, but neither Google nor Yahoo&rsquo;s finance sites appear to have the capability. After a bit of searching, I found a way to do it.</p>
 
+<p><img src="/images/aapl-div-2.png"></p>
+
+<p>So here, I&rsquo;ve plotted $AAPL over the past two years with and without dividend reinvestment. Note that $AAPL first paid a divident in Augustof 2012, so it&rsquo;s logical that the graph begins to diverge shortly after that. Currently the difference in return is about <strong>4.3%</strong> over the two years.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>You can <a href="http://stockcharts.com/h-sc/ui?s=AAPL&amp;p=D&amp;yr=2&amp;mn=0&amp;dy=0&amp;id=p55967354272">fiddle with this graph</a> yourself. Or, starting from scratch, do the following:</p>
+
+<ol>
+<li>Create a chart for AAPL</li>
+<li>Set the range (above I used 2 years)</li>
+<li>Set &ldquo;Type&rdquo; to Thin Line (optional)</li>
+<li>In both the Overlays and Indicators sections, click &ldquo;Clear All&rdquo;</li>
+<li>Under Indicators, create a Price/Performance indicator with parameter <strong>_AAPL</strong> and set &ldquo;Position&rdquo; to &ldquo;Behind Price&rdquo;.</li>
+<li>Click &ldquo;Update&rdquo;</li>
+</ol>
+
+
+<p>Interestingly, <a href="http://www.stockcharts.com">stockcharts.com</a> appears to assume dividend reinvestment by default, while Google Finance and Yahoo Finance do not.</p>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:1">
+        <p>As always, if you spot any error, let me know and I&#8217;ll post a correction.<p>
+    </li>
+</ol></div>
+
 </div>
   
-  
-    <footer>
-      <a rel="full-article" href="/2014/02/19/charting-dividend-reinvestment-aapl/">Continue reading &rarr;</a>
-    </footer>
   
 
 
