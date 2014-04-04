@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/mmorris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mattmorr.is
+  * I am mmorris (https://keybase.io/mmorris) on keybase.
+  * I have a public key with fingerprint BC60 D470 89A5 A6F2 2320  2C64 D199 382C 224A 80B7
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "bc60d47089a5a6f223202c64d199382c224a80b7",
+            "host": "keybase.io",
+            "key_id": "d199382c224a80b7",
+            "uid": "1a0780a2a7ae594526ad8424d53e7e00",
+            "username": "mmorris"
+        },
+        "service": {
+            "hostname": "mattmorr.is",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396642601,
+    "expire_in": 157680000,
+    "prev": "32a33c9a00a2c345157cc7bea2173c55c0ae11f5b5b6c9b7f00fb7ee16f212af",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.3
+Comment: https://keybase.io/crypto
+
+yMHvAnicbZFtSFRZGMevq+vLmGshI7IxG1zS1Rqmc99eZtbNWkmNpMKMXhTHc+89
+d7y4M3e8L2M22G4gCCubGuRugWBg4kKxRgqCWCKClVtQLJaEI5ZCErvSByEWUc+V
+/Lbny+X8n9/z/5/nPlNZyYQrqXTvbFdu0fp40szEqk2cKckpipOSrrSQgTjZiLY/
+qhYJISNqaBGLDJCSzAOFFYDohxzkVZpmaEDLPKtQfj8j0jJNs1AEkkB6yQbddDqw
+jQRN5NN0rOFLUFOw+j+8vV2gIBBEAGkoQMT5WY7moSKyNKtwDBIQAA5oIiMCwwjT
+4bBuGJpJtnpJLMY0GYvx7eQdAFqWw/gw5CWjhm7psv4jLjRYVjTg9FktUQdsRlLw
+s0VQ0iIKnho3xJBhanqEDFCYlC3N8aQYP8+zNA8oL4kuRTUDBTWH4AReBPg4MSiG
+LRkaMozshwCPIzMshwlZFiQEaUpgZI6TAUQUpXISJ/GyXxJUAFRJQIjC/5WioYrz
+TdQU0ckAh58JQ9jS1EIRaNkGIlsnJ2pTiCQXkfrlF87eCFfG7p1t/lyXTvT6ej6V
+Zf6auVS59l/7y9GjcyPLNxeIu9fapseqBkZWrghphaUpo++yvx8UZ9lXGQ/m42nu
+s2beG9v9fpO98OKy8qSjAfyzL7u/YCNRU20bHyuutsSJ1IPmpP3s2/KxIzV/BoYf
+FW78kmWv1X0IpfbvrypExUNNY50/vJ395m932MOXTHX5EqNPO3JuFA8zQ21se9z9
+ui6xpObV/z7QeafxK09TZejxTHJHX8Xcd+nND8/t+qt3IsfV5+npXjv+R/lz+/yB
+8enS28es5BNfH8qdDh1WF1fyuc3q39Bgf5knAU7/VPKvuOfiwvXl9Znu+zW187H5
+e/n1pwpWTy6Gx+dubQHuqAwb
+=vnof
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mmorris
+
+==================================================================
+
