@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/358/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 24 Sep 2016 09:25:21 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/358/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 25 Sep 2016 09:25:01 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8">
@@ -102,6 +102,56 @@ img.emoji {
 				<h1 class="page-title">Author: <span class="vcard">Matt Morris</span></h1>			</header><!-- .page-header -->
 
 			
+<article id="post-206" class="post-206 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2012/07/29/interception/index.html" rel="bookmark">Interception</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>Late last week, I finally got around to setting up Twitter as an account on Mountain Lion. I was disappointed to see that clicking a Twitter notification launches the default web browser and not Twitter.app or any other client. I do not enjoy using Twitter&#8217;s web interface, so I wrote a simple application that forwards these clicks to a native Twitter application of your choice.</p>
+<h2>Quick Start</h2>
+<p>If this sounds like something that you would find useful, <a href="http://bit.ly/RjnPQz">download the beta</a> and give it a try. The application is a single dialog that asks for your preferred Twitter client. Click &#8216;Okay&#8217; and you&#8217;re all set. There should be no need to run the app again unless you want to switch to a different client.</p>
+<p><img src="../../../../wp-content/uploads/2012/07/interception_ui.png" alt="interception_ui" width="564" height="374" class="aligncenter size-full wp-image-210" srcset="https://mattmorris.org/wp-content/uploads/2012/07/interception_ui.png 564w, https://mattmorris.org/wp-content/uploads/2012/07/interception_ui-300x199.png 300w" sizes="(max-width: 564px) 85vw, 564px" /></p>
+<h2>Disclaimer</h2>
+<p>This software should be considered very &#8220;beta.&#8221; If things get weird and you find you can&#8217;t open http URLs anymore or something like that, just delete the .app and <a href="let%20me%20know.html">http://www.twitter.com/boxel</a>.</p>
+<h2>How It Works</h2>
+<p>Interception registers itself as the default handler the URLs that are invoked when you click on a Twitter notification. If it notices a Twitter URL is being loaded by Launch Services, it catches the request and forwards it to the native twitter client you have chosen. All other URLs are silently passed as-is to the default web browser. A previous version of Interception set itself as the default http URL handler for the system, but this is no longer necessary.</p>
+<h2>Known Issues and Next Steps</h2>
+<p>Interception currently supports only the following Twitter clients:  </p>
+<p>&#8211; <a href="http://tapbots.com/tweetbot_mac/">Tweetbot for Mac</a><br />
+&#8211; Twitter.app<br />
+&#8211; Tweet Deck<br />
+&#8211; <a href="http://hibariapp.com/">Hibari</a></p>
+<p>Currently Interception is just hard-coded with the bundle identifiers for each of these apps. In a future version, I might add a &#8220;Choose App&#8221; button which would let the user. If your favorite native Twitter client is not one of these four, please let me know.    </p>
+<p>Also, Twitter mentions and direct messages should land the user on different views inside the targeted Twitter app. I began to wire this up, but it seems that the Tweetbot for Mac public alpha is not yet honoring the <a href="http://tapbots.com/blog/development/tweetbot-url-scheme">Tweetbot URL Scheme</a>, so I put that functionality on hold for all clients. Tweetbot is awesome, and this will be the next feature I add. </p>
+<p>I have created a <a href="https://github.com/mmorris/Interception">project</a> over on Github where I will host the code. I have not posted it yet for two reasons. First, I did this in a bit of a hurry and I would like to clean up the code before I throw it out into the wild. Second, if our local Cocoaheads chapter gets going in the next month or two, I might like to present the project at a meeting and then release the source code and slides all at the same time.</p>
+<h2>Wrap-Up</h2>
+<p><a href="http://bit.ly/RjnPQz">Download It Here</a>. Feedback is welcome.</p>
+<p>I realize that if you&#8217;re favorite Twitter client is in the Mac App Store, it can use push notifications in Mountain Lion, in which case Interception won&#8217;t really be that useful. I&#8217;ve really been enoying Tweetbot for Mac, but it&#8217;s currently in alpha and doesn&#8217;t yet support remote push notifications. This application grew out of a script I wrote because I wanted to be able to launch Tweetbot from a notification even if Tweetbot wasn&#8217;t already running.</p>
+<p>Incidentally, I&#8217;ve lost track of how many times I typed &#8220;Inception&#8221; while writing this post.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2012/07/29/interception/index.html" rel="bookmark"><time class="entry-date published" datetime="2012-07-29T17:00:10+00:00">July 29, 2012</time><time class="updated" datetime="2016-05-03T17:13:22+00:00">May 3, 2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/uncategorized/index.html" rel="category tag">Uncategorized</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-4305" class="post-4305 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2012/07/29/%f0%9f%97%a3-3459/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>@marcoarment  I haven’t regretted it. ML actually seemed to fix some issues I was having with the Retina MBP.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2012/07/29/%f0%9f%97%a3-3459/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2012-07-29T02:38:05+00:00">July 29, 2012</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
 <article id="post-4306" class="post-4306 post type-post status-publish format-standard hentry category-snippets">
 	<header class="entry-header">
 		
@@ -222,36 +272,6 @@ img.emoji {
 		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2012/07/25/%f0%9f%97%a3-3467/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2012-07-25T15:09:17+00:00">July 25, 2012</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
-<article id="post-4314" class="post-4314 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2012/07/25/%f0%9f%97%a3-3468/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>Xcode 4.4 just appeared in the MAS.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2012/07/25/%f0%9f%97%a3-3468/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2012-07-25T15:07:00+00:00">July 25, 2012</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-4315" class="post-4315 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2012/07/25/%f0%9f%97%a3-3469/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>Too paranoid to install ML on my primary work machine. Going to wait and hope that 10.7.5 drops soon and fixes some issues on the rMPB.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2012/07/25/%f0%9f%97%a3-3469/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2012-07-25T15:06:31+00:00">July 25, 2012</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
 	<nav class="navigation pagination" role="navigation">
 		<h2 class="screen-reader-text">Posts navigation</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="../357/index.html">Previous page</a>
@@ -271,15 +291,15 @@ img.emoji {
 	<aside id="secondary" class="sidebar widget-area" role="complementary">
 		<div id="rpwwt-recent-posts-widget-with-thumbnails-2" class="rpwwt-widget">
 	<section id="recent-posts-widget-with-thumbnails-2" class="widget recent-posts-widget-with-thumbnails">	<h2 class="widget-title">Recent Snippets</h2>	<ul>
+			<li><a href="../../../../2016/09/24/5634/index.html"><span class="rpwwt-post-title">5634</span></a><br><div class="rpwwt-post-excerpt">One thing I know for sure: If we ever get discharged and go home, it will be a serious blow to Charleston&#8217;s food truck economy.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/09/IMG_3874-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_3874" srcset="https://mattmorris.org/wp-content/uploads/2016/09/IMG_3874-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/09/IMG_3874-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/09/IMG_3874-180x180.jpg 180w, https://mattmorris.org/wp-content/uploads/2016/09/IMG_3874-600x600.jpg 600w" sizes="(max-width: 300px) 85vw, 300px" />
+		</li>
+			<li><a href="../../../../2016/09/24/%f0%9f%97%a3-4457/index.html"><span class="rpwwt-post-title">5631</span></a><br><div class="rpwwt-post-excerpt">Still here in the hospital room with my son. 20 days and counting.</div>
+		</li>
 			<li><a href="../../../../2016/09/14/%f0%9f%97%a3-4456/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">The Food Network should be banned from televisions in hospital rooms. It&#8217;s just too cruel.</div>
 		</li>
 			<li><a href="../../../../2016/09/14/%f0%9f%97%a3-4455/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Breaking radio silence to report that our Li&#8217;l Sebastian just had an echocardiogram and the tech was named Ann Perkins.</div>
 		</li>
 			<li><a href="../../../../2016/08/24/%f0%9f%97%a3-4454/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">&#8220;Kingsnakes are resistant to the venom of pit-vipers and they readily eat copperheads, cottonmouths, and rattlesnakes&#8221; Yeah I&#8217;ll let this guy stay.</div>
-		</li>
-			<li><a href="../../../../2016/08/24/%f0%9f%97%a3-4453/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Just saw my friend the king snake in the back yard. I&#8217;m thankful to know he&#8217;s not stuck in my dryer vent.</div>
-		</li>
-			<li><a href="../../../../2016/08/22/4453/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">&#8220;Honey, should we invite Paul to the cookout?&#8221; &#8220;Ugh, no. He&#8217;s such a buzzkill.&#8221;</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/08/2016-08-03-17.14.56-300x300.png" class="attachment-300x300 size-300x300" alt="2016-08-03 17.14.56" srcset="https://mattmorris.org/wp-content/uploads/2016/08/2016-08-03-17.14.56-300x300.png 300w, https://mattmorris.org/wp-content/uploads/2016/08/2016-08-03-17.14.56-150x150.png 150w, https://mattmorris.org/wp-content/uploads/2016/08/2016-08-03-17.14.56-180x180.png 180w" sizes="(max-width: 300px) 85vw, 300px" />
 		</li>
 		</ul>
 	</section></div>
@@ -417,5 +437,5 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 <script type='text/javascript' src='../../../../wp-content/plugins/jquery-archive-list-widget/jal1c9b.js?ver=4.6.1'></script>
 </body>
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/358/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 24 Sep 2016 09:25:21 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/358/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 25 Sep 2016 09:25:01 GMT -->
 </html>
