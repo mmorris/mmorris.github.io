@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/140/ by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 07 Oct 2016 09:18:57 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/140/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 08 Oct 2016 09:26:16 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8">
@@ -102,6 +102,108 @@ img.emoji {
 				<h1 class="page-title">Author: <span class="vcard">Matt Morris</span></h1>			</header><!-- .page-header -->
 
 			
+<article id="post-3380" class="post-3380 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/28/%f0%9f%97%a3-2534/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>@ZevEisenberg Looks like this box was only 250, not 500. (Sorry for the slow motion responses) http://t.co/pEBlNI8J2E</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/28/%f0%9f%97%a3-2534/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-28T01:37:37+00:00">September 28, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3381" class="post-3381 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2535/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>@ZevEisenberg Tweeting before fully awake? Talk about questionable life choices 😉  I feel like I’ve seen it but i can’t think of the name.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2535/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T22:54:52+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3382" class="post-3382 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2536/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>@Pinboard Just don’t cross the streams.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2536/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T21:31:20+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-95" class="post-95 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/27/scraping-passwords-from-in-app-browsers/index.html" rel="bookmark">Scraping Passwords from In-App Browsers</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>Last night I saw <a href="https://twitter.com/chockenberry">Craig Hockenberry</a>&#8216;s excellent post that explains a method that an iOS app can use to capture anything you type into an in-app browser.</p>
+<p>Almost three years ago, I reported another way to eavesdrop on users&#8217; keystrokes in an embedded browser (radar 10447976). It&#8217;s a much more rudimentary attack than Craig&#8217;s, but nevertheless it&#8217;s a means for this information to be harvested.</p>
+<p>Here is a dead simple <a href="https://github.com/mmorris/iOSPasswordGrab">sample project</a> that illustrates the attack. There are two factors that come into play.</p>
+<ol>
+<li>In a password field, each character is shown to the user for a brief moment.</li>
+<li>Apps are allowed to do a screen-grab of their own window.</li>
+</ol>
+<p>Here is a screenshot of the sample app. The twitter login page is loaded into a WebView.</p>
+<p><img class="size-medium wp-image-97 aligncenter" src="http://104.236.129.96/wp-content/uploads/2016/05/15330888336_e40936b96c_z-169x300.jpg" alt="15330888336_e40936b96c_z" width="300" srcset="https://mattmorris.org/wp-content/uploads/2016/05/15330888336_e40936b96c_z-169x300.jpg 169w, https://mattmorris.org/wp-content/uploads/2016/05/15330888336_e40936b96c_z.jpg 361w" sizes="(max-width: 169px) 85vw, 169px" /></p>
+<p>As you can see, the most recent character in my password is displayed as I type. Now, combine this with a fast firing timer that continually takes screengrabs of the web view, and voilà, you have the whole password. I was able to easily capture my entire Twitter password.</p>
+<p>Now, you still have to piece the keystrokes together out of the screenshots, so it&#8217;s not the most elegant attack, but in the end you still have the information.</p>
+<p>When I reported this to Apple in 2011, they replied and said that they didn&#8217;t see how this is a security issue. I guess I can understand, since it&#8217;s pretty roundabout. Still, it would be nice if web views were bulletproof and completely trustworthy.</p>
+<p>I agree with Craig that web views are great for quick and dirty views of webpages that aren&#8217;t asking for sensitive information. Be wary of entering sensitive passwords into any <strong>app</strong>, even if it&#8217;s showing you a webpage that isn&#8217;t technically phishing.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/scraping-passwords-from-in-app-browsers/index.html" rel="bookmark"><time class="entry-date published" datetime="2014-09-27T18:01:18+00:00">September 27, 2014</time><time class="updated" datetime="2016-05-01T18:02:32+00:00">May 1, 2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/uncategorized/index.html" rel="category tag">Uncategorized</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3383" class="post-3383 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2537/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>Any additional  topping: $2.  (Some toppings count as two toppings)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2537/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T15:54:55+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3384" class="post-3384 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2538/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>lol this bogus Facebook account has pending friend requests from people I actually know.   Apologies everyone, but I don’t even Facebook.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2538/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T12:47:06+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
 <article id="post-3385" class="post-3385 post type-post status-publish format-standard hentry category-snippets">
 	<header class="entry-header">
 		
@@ -162,96 +264,6 @@ img.emoji {
 		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2542/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T12:10:01+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
-<article id="post-3389" class="post-3389 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2543/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@amahnke Wikipedia mentions that “Quinine was also frequently prescribed in the US as an off-label treatment for nocturnal leg cramps” …</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2543/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T12:09:12+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3390" class="post-3390 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2544/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@amahnke Yeah I have a glass in the evening with a squirt of lemon or orange.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2544/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T12:04:47+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3391" class="post-3391 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/27/%f0%9f%97%a3-2545/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@amahnke Those are the worst. I get them too. My doctor suggested that I try tonic water (quinine), which seems to help.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/27/%f0%9f%97%a3-2545/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-27T12:02:57+00:00">September 27, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3392" class="post-3392 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/26/%f0%9f%97%a3-2546/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@hotdogsladies Check Your Six</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/26/%f0%9f%97%a3-2546/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-26T18:59:28+00:00">September 26, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3393" class="post-3393 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/26/%f0%9f%97%a3-2547/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>Woke up today feeling like I’ve been hit by a truck. I think I’ll take a few days off weightlifting to rest and stretch.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/26/%f0%9f%97%a3-2547/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-26T11:14:40+00:00">September 26, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3394" class="post-3394 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/09/26/%f0%9f%97%a3-2548/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@ZevEisenberg Was it Marble Madness?</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/09/26/%f0%9f%97%a3-2548/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-09-26T08:40:54+00:00">September 26, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
 	<nav class="navigation pagination" role="navigation">
 		<h2 class="screen-reader-text">Posts navigation</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="../139/index.html">Previous page</a>
@@ -261,7 +273,7 @@ img.emoji {
 <span class='page-numbers current'><span class="meta-nav screen-reader-text">Page </span>140</span>
 <a class='page-numbers' href='../141/index.html'><span class="meta-nav screen-reader-text">Page </span>141</a>
 <span class="page-numbers dots">&hellip;</span>
-<a class='page-numbers' href='../458/index.html'><span class="meta-nav screen-reader-text">Page </span>458</a>
+<a class='page-numbers' href='../459/index.html'><span class="meta-nav screen-reader-text">Page </span>459</a>
 <a class="next page-numbers" href="../141/index.html">Next page</a></div>
 	</nav>
 		</main><!-- .site-main -->
@@ -271,15 +283,15 @@ img.emoji {
 	<aside id="secondary" class="sidebar widget-area" role="complementary">
 		<div id="rpwwt-recent-posts-widget-with-thumbnails-2" class="rpwwt-widget">
 	<section id="recent-posts-widget-with-thumbnails-2" class="widget recent-posts-widget-with-thumbnails">	<h2 class="widget-title">Recent Snippets</h2>	<ul>
-			<li><a href="../../../../2016/10/05/%f0%9f%97%a3-4471/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Kinda glad I don&#8217;t have to mess with that.</div>
+			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4477/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">I&#8217;m glad I have this room, because the rooms with an actual waterfront view have been boarded up. At least I get to see the sky.</div>
 		</li>
-			<li><a href="../../../../2016/10/05/%f0%9f%97%a3-4470/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Evacuation is underway. Traffic on I-26 eastbound is in process of being reversed.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4389-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4389.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4389-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4389-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4389-180x180.jpg 180w" sizes="(max-width: 300px) 85vw, 300px" />
+			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4476/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">This is the view from the cot where I sleep. Only thing between me and the sky is a glass window and a glass ceiling.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4452-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4452.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4452-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-180x180.jpg 180w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-600x600.jpg 600w" sizes="(max-width: 300px) 85vw, 300px" />
 		</li>
-			<li><a href="../../../../2016/10/04/%f0%9f%97%a3-4469/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">If there is an itemization on my hospital bill for the boards on the windows, I will post a picture online and get a million internet points.</div>
+			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4475/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">First story windows are being covered with heavy steel plates.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4455-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4455.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4455-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-180x180.jpg 180w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-600x600.jpg 600w" sizes="(max-width: 300px) 85vw, 300px" />
 		</li>
-			<li><a href="../../../../2016/10/04/%f0%9f%97%a3-4468/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Well the city is being evacuated. The baby and I, however, get to stay and get an up close look at a hurricane. 🙃</div>
+			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4474/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">There’s something therapeutic about it, much more so than my usual diet of tech, finance, and news podcasts.</div>
 		</li>
-			<li><a href="../../../../2016/10/04/%f0%9f%97%a3-4467/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Aaaaaaand now they&#8217;re boarding up the windows of the hospital. I should have known Hurricane Matthew would come for me.</div>
+			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4473/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Something I’ve been doing this past month in the hospital that I hadn’t done for years: Eyes closed, listening to music through headphones.</div>
 		</li>
 		</ul>
 	</section></div>
@@ -418,5 +430,5 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 <script type='text/javascript' src='../../../../wp-content/plugins/jquery-archive-list-widget/jal1c9b.js?ver=4.6.1'></script>
 </body>
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/140/ by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 07 Oct 2016 09:18:57 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/140/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 08 Oct 2016 09:26:16 GMT -->
 </html>
