@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/167/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 08 Oct 2016 09:26:39 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/167/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 09 Oct 2016 09:27:58 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8">
@@ -102,6 +102,84 @@ img.emoji {
 				<h1 class="page-title">Author: <span class="vcard">Matt Morris</span></h1>			</header><!-- .page-header -->
 
 			
+<article id="post-3639" class="post-3639 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/08/01/%f0%9f%97%a3-2793/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>RT @tomscott: I just found out that replying to a promoted tweet, even just with heckling, costs the promoter between 50¢ and $5. Use that …</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/08/01/%f0%9f%97%a3-2793/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-08-01T17:59:28+00:00">August 1, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3640" class="post-3640 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/08/01/%f0%9f%97%a3-2794/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>@jaredsinclair Can’t wait to try it.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/08/01/%f0%9f%97%a3-2794/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-08-01T15:28:20+00:00">August 1, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-263" class="post-263 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/08/01/building-a-web-backend-from-scratch/index.html" rel="bookmark">Building a Web Backend from Scratch</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>I built the backend for my last project on Heroku using Sinatra. It was great; I got to learn about Ruby and a new web framework and it was a very stable and fast API.</p>
+<p>I’ve been thinking about what to use for my next project when I saw Marco’s <a href="http://www.marco.org/2014/03/27/web-hosting-for-app-developers">Web Hosting for App Developers</a> and the ensuing discussions among developers on Twitter. After giving it some thought I came to the conclusion that I could probably learn alot by self-hosting the backend myself. Maybe I can even build something as stable and reliable as what I built on Heroku?</p>
+<p>Rebuild, Rebuild, Rebuild</p>
+<p>I made the decision up-front to script the entire process of building the server. This way, in the event of a network outage at Linode or in the unlikely event that my app comes under heavy load, I can add new servers in a matter of minutes.</p>
+<p>My current scripts do the following:</p>
+<ul>
+<li>Setup SSH keys and disable SSH password authentication</li>
+<li>Setup firewall, leaving only ports for my application open.</li>
+<li>Install git, postgres, golang, and other software used by my application.</li>
+<li>Configure postgres and golang</li>
+<li>Checkout the application code from my repository</li>
+<li>Configure it so that it automatically starts when the system reboots.</li>
+</ul>
+<p>Did I miss anything?</p>
+<p>Another thing that I do to make sure that my scripts are always in working order is to rebuild the server every time I make a substantial change to the script. Also, I completely rebuild the server every evening I sit down to work on it. This leaves me feeling pretty confident that I can quickly recover from a serious outage.</p>
+<p>Now, you might have noticed that I mentioned golang above. I’d originally planned to use Flask, but as I already have some experience with Python, I chose Golang so that I can learn something new. The dowside of this will be that Go isn’t as widely used, and I will be navigating uncharted water without the usual wealth of online sample code and SO Q&#038;A. Still, my early impressions of Martini + Golang are very positive. I’m hopeful that I can get everything working withough too much headache.</p>
+<p>Next:</p>
+<p>I need to setup automatic database backups. I’ll probably use a cron job that automatically sends raw backups to Amazon S3. Also, I’d like to support HTTPS for all API calls. Since I’m just building a web API for my own app, I can just be my own Certificate Authority and issue my own SSL certificates and keys. Any problem with that?</p>
+<p>Have any comments or suggestions? <a href="https://twitter.com/boxel">Let me know</a>.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/08/01/building-a-web-backend-from-scratch/index.html" rel="bookmark"><time class="entry-date published" datetime="2014-08-01T13:33:56+00:00">August 1, 2014</time><time class="updated" datetime="2016-05-05T13:35:59+00:00">May 5, 2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/uncategorized/index.html" rel="category tag">Uncategorized</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<article id="post-3641" class="post-3641 post type-post status-publish format-standard hentry category-snippets">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="../../../../2014/08/01/%f0%9f%97%a3-2795/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>The old website was too much of a time sink, so I&#8217;m trying something different: http://t.co/lCPcBY3BxF</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/08/01/%f0%9f%97%a3-2795/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-08-01T13:03:05+00:00">August 1, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
 <article id="post-3642" class="post-3642 post type-post status-publish format-standard hentry category-snippets">
 	<header class="entry-header">
 		
@@ -192,66 +270,6 @@ img.emoji {
 		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/07/30/%f0%9f%97%a3-2801/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-07-30T19:02:56+00:00">July 30, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
-<article id="post-3648" class="post-3648 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/07/30/%f0%9f%97%a3-2802/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>I love Octopress but I need to migrate to something that won’t tempt me to fiddle with it so much.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/07/30/%f0%9f%97%a3-2802/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-07-30T18:33:37+00:00">July 30, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3649" class="post-3649 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/07/30/%f0%9f%97%a3-2803/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@blackfog Good idea. And I could probably do it permanently since the service I’m building will only be available in the US &amp; Canada.</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/07/30/%f0%9f%97%a3-2803/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-07-30T18:24:10+00:00">July 30, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3650" class="post-3650 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/07/30/%f0%9f%97%a3-2804/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>@0x0acebabe @Dirk_Gently https://t.co/nUDkw0neh9</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/07/30/%f0%9f%97%a3-2804/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-07-30T01:15:00+00:00">July 30, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<article id="post-3651" class="post-3651 post type-post status-publish format-standard hentry category-snippets">
-	<header class="entry-header">
-		
-		<h2 class="entry-title"><a href="../../../../2014/07/29/%f0%9f%97%a3-2805/index.html" rel="bookmark">🗣</a></h2>	</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content">
-		<p>SDK for FiftyThree&#8217;s pencil stylus: https://t.co/VO9wcFUXbN</p>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span> <a class="url fn n" href="../../index.html">Matt Morris</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="../../../../2014/07/29/%f0%9f%97%a3-2805/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2014-07-29T11:12:31+00:00">July 29, 2014</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="../../../../category/snippets/index.html" rel="category tag">Snippets</a></span>			</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
 	<nav class="navigation pagination" role="navigation">
 		<h2 class="screen-reader-text">Posts navigation</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="../166/index.html">Previous page</a>
@@ -271,15 +289,15 @@ img.emoji {
 	<aside id="secondary" class="sidebar widget-area" role="complementary">
 		<div id="rpwwt-recent-posts-widget-with-thumbnails-2" class="rpwwt-widget">
 	<section id="recent-posts-widget-with-thumbnails-2" class="widget recent-posts-widget-with-thumbnails">	<h2 class="widget-title">Recent Snippets</h2>	<ul>
+			<li><a href="../../../../2016/10/08/%f0%9f%97%a3-4481/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Current Status.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4490-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4490.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4490-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4490-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4490-180x180.jpg 180w" sizes="(max-width: 300px) 85vw, 300px" />
+		</li>
+			<li><a href="../../../../2016/10/08/%f0%9f%97%a3-4480/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Just heard the whole hospital is running on generators. Time to plug in the phone.</div>
+		</li>
+			<li><a href="../../../../2016/10/08/%f0%9f%97%a3-4479/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">The hurricane and the fire should just cancel each other out, right?</div>
+		</li>
+			<li><a href="../../../../2016/10/08/%f0%9f%97%a3-4478/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Sirens are going off. &#8220;Code red&#8221; over the PA. Our doctor says there&#8217;s a fire on the 2nd floor.</div>
+		</li>
 			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4477/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">I&#8217;m glad I have this room, because the rooms with an actual waterfront view have been boarded up. At least I get to see the sky.</div>
-		</li>
-			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4476/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">This is the view from the cot where I sleep. Only thing between me and the sky is a glass window and a glass ceiling.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4452-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4452.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4452-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-180x180.jpg 180w, https://mattmorris.org/wp-content/uploads/2016/10/img_4452-600x600.jpg 600w" sizes="(max-width: 300px) 85vw, 300px" />
-		</li>
-			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4475/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">First story windows are being covered with heavy steel plates.</div><img width="300" height="300" src="../../../../wp-content/uploads/2016/10/img_4455-300x300.jpg" class="attachment-300x300 size-300x300" alt="img_4455.jpg" srcset="https://mattmorris.org/wp-content/uploads/2016/10/img_4455-300x300.jpg 300w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-150x150.jpg 150w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-180x180.jpg 180w, https://mattmorris.org/wp-content/uploads/2016/10/img_4455-600x600.jpg 600w" sizes="(max-width: 300px) 85vw, 300px" />
-		</li>
-			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4474/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">There’s something therapeutic about it, much more so than my usual diet of tech, finance, and news podcasts.</div>
-		</li>
-			<li><a href="../../../../2016/10/07/%f0%9f%97%a3-4473/index.html"><span class="rpwwt-post-title">🗣</span></a><br><div class="rpwwt-post-excerpt">Something I’ve been doing this past month in the hospital that I hadn’t done for years: Eyes closed, listening to music through headphones.</div>
 		</li>
 		</ul>
 	</section></div>
@@ -418,5 +436,5 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 <script type='text/javascript' src='../../../../wp-content/plugins/jquery-archive-list-widget/jal1c9b.js?ver=4.6.1'></script>
 </body>
 
-<!-- Mirrored from mattmorris.org/author/mmorris/page/167/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 08 Oct 2016 09:26:39 GMT -->
+<!-- Mirrored from mattmorris.org/author/mmorris/page/167/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 09 Oct 2016 09:27:58 GMT -->
 </html>
